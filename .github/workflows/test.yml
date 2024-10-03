@@ -27,17 +27,24 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # 更新到 v3
+        uses: actions/checkout@v3
 
       - name: Install Homebrew
         run: |
           /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-          echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.bashrc
           eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
+      - name: Verify Homebrew Installation
+        run: |
+          brew --version
 
       - name: Install Hugo Extended
         run: |
           brew install hugo
+
+      - name: Verify Hugo Installation
+        run: |
+          hugo version
 
       - name: Build Hugo site
         run: |
