@@ -16,39 +16,32 @@
     #     steps:
     #     - run: node --versionname: Hugo Build
 
-name: Hugo Build
+name: Build and Deploy Hugo Site
 
-on: 
+on:
   push:
+    branches:
+      - main  # 指定要触发的分支
 
 jobs:
-  hugo-build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
 
-      - name: Install Homebrew
-        run: |
-          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-          eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-
-      - name: Verify Homebrew Installation
-        run: |
-          brew --version
-
-      - name: Install Hugo Extended
-        run: |
-          brew install hugo
-
-      - name: Verify Hugo Installation
-        run: |
-          hugo version
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
 
       - name: Build Hugo site
         run: |
-          hugo
+          hugo -F --cleanDestinationDir  # 生成静态文件
 
-      - name: List files
-        run: ls -al
+      - name: List generated files
+        run: ls -al public  # 列出生成的文件，以便调试
