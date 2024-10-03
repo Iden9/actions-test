@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Hugo on 我的博客</title>
-        <link>https://demo.stack.jimmycai.com/tags/hugo/</link>
+        <link>https://iden9.github.io/actions-test/tags/hugo/</link>
         <description>Recent content in Hugo on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo Stack Quick Start</title>
-        <link>https://demo.stack.jimmycai.com/p/hugo-stack-quick-start/</link>
+        <link>https://iden9.github.io/actions-test/p/hugo-stack-quick-start/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/hugo-stack-quick-start/</guid>
+        <guid>https://iden9.github.io/actions-test/p/hugo-stack-quick-start/</guid>
         <description>&lt;p&gt;记录搭建Hugo 博客，使用stack主题快速启动部署
 记录搭建Hugo 博客，使用stack主题快速启动部署&lt;/p&gt;
 &lt;p&gt;选择Hugo

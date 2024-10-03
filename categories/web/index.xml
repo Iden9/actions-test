@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Web on 我的博客</title>
-        <link>https://demo.stack.jimmycai.com/categories/web/</link>
+        <link>https://iden9.github.io/actions-test/categories/web/</link>
         <description>Recent content in Web on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/categories/web/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/categories/web/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo Stack Quick Start</title>
-        <link>https://demo.stack.jimmycai.com/p/hugo-stack-quick-start/</link>
+        <link>https://iden9.github.io/actions-test/p/hugo-stack-quick-start/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/hugo-stack-quick-start/</guid>
+        <guid>https://iden9.github.io/actions-test/p/hugo-stack-quick-start/</guid>
         <description>&lt;p&gt;记录搭建Hugo 博客，使用stack主题快速启动部署
 记录搭建Hugo 博客，使用stack主题快速启动部署&lt;/p&gt;
 &lt;p&gt;选择Hugo
@@ -83,19 +83,19 @@ GitHub的访问貌似有一点慢，后面考虑部署到CDN上面吧，静态�
         </item>
         <item>
         <title>React</title>
-        <link>https://demo.stack.jimmycai.com/p/react/</link>
+        <link>https://iden9.github.io/actions-test/p/react/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/react/</guid>
+        <guid>https://iden9.github.io/actions-test/p/react/</guid>
         <description>&lt;p&gt;这里写关于React的学习&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Uniapp 开发篇</title>
-        <link>https://demo.stack.jimmycai.com/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</link>
+        <link>https://iden9.github.io/actions-test/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</guid>
+        <guid>https://iden9.github.io/actions-test/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</guid>
         <description>&lt;img src="https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/uni-app.png" alt="Featured image of post Uniapp 开发篇" /&gt;&lt;p&gt;目录&lt;/p&gt;
 &lt;h3 id=&#34;一介绍&#34;&gt;一、介绍
 &lt;/h3&gt;&lt;h3 id=&#34;二环境搭建hello-world&#34;&gt;二、环境搭建（hello world）

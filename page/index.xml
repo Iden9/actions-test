@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 我的博客</title>
-        <link>https://demo.stack.jimmycai.com/page/</link>
+        <link>https://iden9.github.io/actions-test/page/</link>
         <description>Recent content in Pages on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
-        <link>https://demo.stack.jimmycai.com/archives/</link>
+        <link>https://iden9.github.io/actions-test/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/archives/</guid>
+        <guid>https://iden9.github.io/actions-test/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Document</title>
-        <link>https://demo.stack.jimmycai.com/document/</link>
+        <link>https://iden9.github.io/actions-test/document/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/document/</guid>
+        <guid>https://iden9.github.io/actions-test/document/</guid>
         <description>&lt;p&gt;这里还没有内容&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://demo.stack.jimmycai.com/links/</link>
+        <link>https://iden9.github.io/actions-test/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/links/</guid>
+        <guid>https://iden9.github.io/actions-test/links/</guid>
         <description>&lt;p&gt;友情链接&lt;/p&gt;
 &lt;!-- ```yaml
 links:
@@ -46,10 +46,10 @@ links:
         </item>
         <item>
         <title>Search</title>
-        <link>https://demo.stack.jimmycai.com/search/</link>
+        <link>https://iden9.github.io/actions-test/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/search/</guid>
+        <guid>https://iden9.github.io/actions-test/search/</guid>
         <description></description>
         </item>
         

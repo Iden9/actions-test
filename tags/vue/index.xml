@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Vue on 我的博客</title>
-        <link>https://demo.stack.jimmycai.com/tags/vue/</link>
+        <link>https://iden9.github.io/actions-test/tags/vue/</link>
         <description>Recent content in Vue on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/tags/vue/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/tags/vue/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>创建Vue项目</title>
-        <link>https://demo.stack.jimmycai.com/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/</link>
+        <link>https://iden9.github.io/actions-test/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/</guid>
+        <guid>https://iden9.github.io/actions-test/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/</guid>
         <description>&lt;img src="https://avatars.githubusercontent.com/u/102173622?v=4" alt="Featured image of post 创建Vue项目" /&gt;&lt;p&gt;如何创建Vue项目&lt;/p&gt;
 </description>
         </item>
