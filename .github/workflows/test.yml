@@ -1,1 +1,4 @@
 on: push
+jobbs:
+    job1:
+    job2:
