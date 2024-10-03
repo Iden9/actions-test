@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on 我的博客</title>
+        <link>https://demo.stack.jimmycai.com/categories/</link>
+        <description>Recent content in Categories on 我的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Blog</title>
+        <link>https://demo.stack.jimmycai.com/categories/blog/</link>
+        <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/blog/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Skill</title>
+        <link>https://demo.stack.jimmycai.com/categories/skill/</link>
+        <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/skill/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Web</title>
+        <link>https://demo.stack.jimmycai.com/categories/web/</link>
+        <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/web/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>后端</title>
+        <link>https://demo.stack.jimmycai.com/categories/%E5%90%8E%E7%AB%AF/</link>
+        <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/%E5%90%8E%E7%AB%AF/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Syntax</title>
+        <link>https://demo.stack.jimmycai.com/categories/syntax/</link>
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/syntax/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Themes</title>
+        <link>https://demo.stack.jimmycai.com/categories/themes/</link>
+        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/themes/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Example Category</title>
+        <link>https://demo.stack.jimmycai.com/categories/example-category/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/example-category/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

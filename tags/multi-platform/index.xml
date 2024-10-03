@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Multi-Platform on 我的博客</title>
+        <link>https://demo.stack.jimmycai.com/tags/multi-platform/</link>
+        <description>Recent content in Multi-Platform on 我的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/tags/multi-platform/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Uniapp 开发篇</title>
+        <link>https://demo.stack.jimmycai.com/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</link>
+        <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</guid>
+        <description>&lt;img src="https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/uni-app.png" alt="Featured image of post Uniapp 开发篇" /&gt;&lt;p&gt;目录&lt;/p&gt;
+&lt;h3 id=&#34;一介绍&#34;&gt;一、介绍
+&lt;/h3&gt;&lt;h3 id=&#34;二环境搭建hello-world&#34;&gt;二、环境搭建（hello world）
+&lt;/h3&gt;&lt;h4 id=&#34;21-下载hbuilderx&#34;&gt;2.1 下载HBuilderX
+&lt;/h4&gt;&lt;h4 id=&#34;22-下载微信开发者工具&#34;&gt;2.2 下载微信开发者工具
+&lt;/h4&gt;&lt;h4 id=&#34;23-创建uniapp项目&#34;&gt;2.3 创建uniapp项目
+&lt;/h4&gt;&lt;h4 id=&#34;24-在浏览器运行&#34;&gt;2.4 在浏览器运行
+&lt;/h4&gt;&lt;h4 id=&#34;25-在微信开发者工具运行&#34;&gt;2.5 在微信开发者工具运行
+&lt;/h4&gt;&lt;h4 id=&#34;26-在手机上运行&#34;&gt;2.6 在手机上运行
+&lt;/h4&gt;&lt;h3 id=&#34;三项目基本目录结构&#34;&gt;三、项目基本目录结构
+&lt;/h3&gt;&lt;h3 id=&#34;四开发规范概述&#34;&gt;四、开发规范概述
+&lt;/h3&gt;&lt;h3 id=&#34;五全局配置文件pagesjson&#34;&gt;五、全局配置文件（pages.json）
+&lt;/h3&gt;&lt;h4 id=&#34;51-globalstyle全局样式&#34;&gt;5.1 globalStyle（全局样式）
+&lt;/h4&gt;&lt;p&gt;导航栏：背景颜色、标题颜色、标题文本&lt;/p&gt;
+&lt;p&gt;导航栏：开启下拉刷新、下拉背景、下拉样式&lt;/p&gt;
+&lt;h4 id=&#34;52-pages页面路由&#34;&gt;5.2 pages（页面路由）
+&lt;/h4&gt;&lt;h4 id=&#34;53-tabbar&#34;&gt;5.3 tabBar
+&lt;/h4&gt;&lt;h4 id=&#34;54-condition-开发启动模式&#34;&gt;5.4 condition （开发启动模式）
+&lt;/h4&gt;&lt;h3 id=&#34;六创建新页面和页面的配置&#34;&gt;六、创建新页面和页面的配置
+&lt;/h3&gt;&lt;h3 id=&#34;七配置tabbar&#34;&gt;七、配置tabBar
+&lt;/h3&gt;&lt;h4 id=&#34;71-基本设置&#34;&gt;7.1 基本设置
+&lt;/h4&gt;&lt;h4 id=&#34;72-个性化设置&#34;&gt;7.2 个性化设置
+&lt;/h4&gt;&lt;h3 id=&#34;八组件&#34;&gt;八、组件
+&lt;/h3&gt;&lt;h4 id=&#34;81-text&#34;&gt;8.1 text
+&lt;/h4&gt;&lt;h4 id=&#34;82-icon&#34;&gt;8.2 icon
+&lt;/h4&gt;&lt;p&gt;icon&lt;/p&gt;
+&lt;p&gt;字体图标&lt;/p&gt;
+&lt;h3 id=&#34;九页面样式与布局&#34;&gt;九、页面样式与布局
+&lt;/h3&gt;&lt;h4 id=&#34;91-尺寸单位&#34;&gt;9.1 尺寸单位
+&lt;/h4&gt;&lt;h4 id=&#34;92-样式导入&#34;&gt;9.2 样式导入
+&lt;/h4&gt;&lt;h4 id=&#34;93-选择器&#34;&gt;9.3 选择器
+&lt;/h4&gt;&lt;h4 id=&#34;94-全局样式与局部样式&#34;&gt;9.4 全局样式与局部样式
+&lt;/h4&gt;&lt;h4 id=&#34;95-使用sass&#34;&gt;9.5 使用sass
+&lt;/h4&gt;&lt;h3 id=&#34;十vue基本语法复习&#34;&gt;十、Vue基本语法复习
+&lt;/h3&gt;&lt;h3 id=&#34;十一uniapp的生命周期&#34;&gt;十一、uniapp的生命周期
+&lt;/h3&gt;&lt;h4 id=&#34;应用的生命周期&#34;&gt;应用的生命周期
+&lt;/h4&gt;&lt;h4 id=&#34;页面的生命周期&#34;&gt;页面的生命周期
+&lt;/h4&gt;&lt;h3 id=&#34;十二下拉刷新&#34;&gt;十二、下拉刷新
+&lt;/h3&gt;&lt;h3 id=&#34;十三上拉加载&#34;&gt;十三、上拉加载
+&lt;/h3&gt;&lt;h3 id=&#34;十四网络请求&#34;&gt;十四、网络请求
+&lt;/h3&gt;&lt;h4 id=&#34;141-unirequestobject&#34;&gt;14.1 uni.request(OBJECT)
+&lt;/h4&gt;&lt;h4 id=&#34;142-二次封装请求对象&#34;&gt;14.2 二次封装请求对象
+&lt;/h4&gt;&lt;h3 id=&#34;十五数据缓存&#34;&gt;十五、数据缓存
+&lt;/h3&gt;&lt;h4 id=&#34;151-unisetstorageobject&#34;&gt;15.1 uni.setStorage(OBJECT)
+&lt;/h4&gt;&lt;h4 id=&#34;152-unigetstorageobject&#34;&gt;15.2 uni.getStorage(OBJECT)
+&lt;/h4&gt;&lt;h4 id=&#34;153-uniremovestorageobject&#34;&gt;15.3 uni.removeStorage(OBJECT)
+&lt;/h4&gt;&lt;h4 id=&#34;154-unisetstoragesynckeydata&#34;&gt;15.4 uni.setStorageSync(KEY,DATA)
+&lt;/h4&gt;&lt;h4 id=&#34;155-unigetstoragesynckey&#34;&gt;15.5 uni.getStorageSync(KEY)
+&lt;/h4&gt;&lt;h4 id=&#34;156-uniremovestoragesynckey&#34;&gt;15.6 uni.removeStorageSync(KEY)
+&lt;/h4&gt;&lt;h3 id=&#34;十六图片的上传和预览&#34;&gt;十六、图片的上传和预览
+&lt;/h3&gt;&lt;h4 id=&#34;161-上传&#34;&gt;16.1 上传
+&lt;/h4&gt;&lt;h3 id=&#34;一介绍-1&#34;&gt;一、介绍
+&lt;/h3&gt;&lt;p&gt;如果是刚入门小程序的，又或者刚听到这个名词的人，可能跟我之前一样，带着诸多的疑惑。比如：&lt;/p&gt;
+&lt;p&gt;什么是uniapp？它和原生微信小程序有什么异同之处？&lt;/p&gt;
+&lt;p&gt;为什么推荐uniapp开发？&lt;/p&gt;
+&lt;p&gt;这里一句话两句话解释了可能还是云里雾里的。我的建议是看看下面这个视频，个人觉得讲的很清楚明白。&lt;/p&gt;
+&lt;p&gt;开发微信小程序使用原生开发还是uniapp开发，详细介绍原生小程序与uni-app开发的优缺点_哔哩哔哩_bilibili&lt;/p&gt;
+&lt;h3 id=&#34;二环境搭建hello-world-1&#34;&gt;二、环境搭建（hello world）
+&lt;/h3&gt;&lt;p&gt;2.1 下载HBuilderX
+HBuilderX-高效极客技巧&lt;/p&gt;
+&lt;p&gt;当然你可以选择其他IDE，但是官网推荐HBuilderX，天然整合uniapp。&lt;/p&gt;
+&lt;p&gt;2.2 下载微信开发者工具
+我们要最终打包成微信小程序就必须在微信开发者工具去预览，那么需要下载微信开发者工具了。&lt;/p&gt;
+&lt;p&gt;微信开发者工具下载地址与更新日志 | 微信开放文档&lt;/p&gt;
+&lt;p&gt;2.3 创建uniapp项目
+HBuilderX下载下来后，直接双击运行HBuilderX.exe文件即可，它是免安装的。&lt;/p&gt;
+&lt;p&gt;然后我们新建一个uniapp项目，按照下图操作即可。&lt;/p&gt;
+&lt;p&gt;然后它会默认生成项目的基本结构。&lt;/p&gt;
+&lt;p&gt;2.4 在浏览器运行&lt;/p&gt;
+&lt;p&gt;然后第一次运行时，控制台会提示自动去下载相关的插件，下载完成后需要你再次重新运行。&lt;/p&gt;
+&lt;p&gt;2.5 在微信开发者工具运行&lt;/p&gt;
+&lt;p&gt;然后启动测试一下，发现失败了。经过检查它报错的这两项，也没问题啊。&lt;/p&gt;
+&lt;p&gt;那么问题可能是出在微信开发者，我们需要进入微信开发者工具-&amp;gt;设置-&amp;gt;安全，然后把服务的端口号打开。&lt;/p&gt;
+&lt;p&gt;接着重新运行即可。&lt;/p&gt;
+&lt;p&gt;2.6 在手机上运行
+安卓、ios同理，不过需要用数据线连接上。&lt;/p&gt;
+&lt;p&gt;操作类似，感兴趣的可以去试试，这里不再演示了。不过要注意的是ios端麻烦点，好像现在不支持直接运行了。&lt;/p&gt;
+&lt;h3 id=&#34;三项目基本目录结构-1&#34;&gt;三、项目基本目录结构
+&lt;/h3&gt;&lt;h3 id=&#34;四开发规范概述-1&#34;&gt;四、开发规范概述
+&lt;/h3&gt;&lt;p&gt;为了实现多端兼容，综合考虑编译速度、运行性能等因素，uni-app约定了如下开发规范：&lt;/p&gt;
+&lt;p&gt;页面文件遵循Vue单文件组件规范&lt;/p&gt;
+&lt;p&gt;组件标签靠近小程序规范，详细见uni-app组件规范&lt;/p&gt;
+&lt;p&gt;接口能力（js api）靠近微信小程序规范，但需将前缀wx替换为uni，详见uni-app接口规范&lt;/p&gt;
+&lt;p&gt;数据绑定及事件处理同Vue.js规范，同时补充了App以及页面的生命周期&lt;/p&gt;
+&lt;p&gt;为兼容多端运行，建议使用flex布局进行开发&lt;/p&gt;
+&lt;h3 id=&#34;五全局配置文件pagesjson-1&#34;&gt;五、全局配置文件（pages.json）
+&lt;/h3&gt;&lt;p&gt;pages.json 文件用来对 uni-app 进行全局配置，决定页面文件的路径、窗口样式、原生的导航栏、底部的原生tabbar 等。&lt;/p&gt;
+&lt;p&gt;5.1 globalStyle（全局样式）
+用于设置应用的状态栏、导航条、标题、窗口背景色等。&lt;/p&gt;
+&lt;p&gt;ps：以下我都只列举了个人认为比较常见的属性，如果有需要强烈建议去官网看，最全。&lt;/p&gt;
+&lt;p&gt;导航栏：背景颜色、标题颜色、标题文本
+属性	类型	默认值	描述	平台差异说明
+navigationBarBackgroundColor	HexColor	#F8F8F8	导航栏背景颜色（同状态栏背景色）	APP与H5为#F8F8F8，小程序平台请参考相应小程序文档
+navigationBarTextStyle	String	black	导航栏标题颜色及状态栏前景颜色，仅支持 black/white	支付宝小程序不支持，请使用 my.setNavigationBar
+navigationBarTitleText	String		导航栏标题文字内容
+navigationStyle	String	default	导航栏样式，仅支持 default/custom。custom即取消默认的原生导航栏，需看使用注意	微信小程序 7.0+、百度小程序、H5、App（2.0.3+）
+演示&lt;/p&gt;
+&lt;p&gt;注意：如果你没有修改完全成功，或者都不生效，可能是设置了页面的配置样式导致的，它会覆盖掉全局样式配置中相同属性的样式。这是因为页面配置优先级高于全局配置。我们删除掉页面配置样式即可。&lt;/p&gt;
+&lt;p&gt;导航栏：开启下拉刷新、下拉背景、下拉样式
+属性	类型	默认值	描述	平台差异说明
+backgroundColor	HexColor	#ffffff	下拉显示出来的窗口的背景色	微信小程序
+backgroundTextStyle	String	dark	下拉 loading 的样式，仅支持 dark / light	微信小程序
+enablePullDownRefresh	Boolean	false	是否开启下拉刷新，详见页面生命周期。
+onReachBottomDistance	Number	50	页面上拉触底事件触发时距页面底部距离，单位只支持px，详见页面生命周期
+演示&lt;/p&gt;
+&lt;p&gt;5.2 pages（页面路由）
+uni-app 通过 pages 节点配置应用由哪些页面组成，pages 节点接收一个数组，数组每个项都是一个对象，其属性值如下：&lt;/p&gt;
+&lt;p&gt;属性	类型	默认值	描述
+path	String		配置页面路径
+style	Object		配置页面窗口表现，配置项参考下方 pageStyle
+Tips：&lt;/p&gt;
+&lt;p&gt;pages节点的第一项为应用入口页（即首页）
+应用中新增/减少页面，都需要对 pages 数组进行修改
+文件名不需要写后缀，框架会自动寻找路径下的页面资源
+例如项目创建时默认生成的：&lt;/p&gt;
+&lt;p&gt;如果不清楚，我将在第六章创建新页面和页面的配置中演示它的使用。&lt;/p&gt;
+&lt;p&gt;5.3 tabBar
+如果应用是一个多 tab 应用，可以通过 tabBar 配置项指定一级导航栏，以及 tab 切换时显示的对应页。&lt;/p&gt;
+&lt;p&gt;具体请见第七章！&lt;/p&gt;
+&lt;p&gt;5.4 condition （开发启动模式）
+启动模式配置，仅开发期间生效，用于模拟直达页面的场景，如：小程序转发后，用户点击所打开的页面。&lt;/p&gt;
+&lt;p&gt;属性说明：&lt;/p&gt;
+&lt;p&gt;属性	类型	是否必填	描述
+current	Number	是	当前激活的模式，list节点的索引值
+list	Array	是	启动模式列表
+list说明：&lt;/p&gt;
+&lt;p&gt;属性	类型	是否必填	描述
+name	String	是	启动模式名称
+path	String	是	启动页面路径
+query	String	否	启动参数，可在页面的 onLoad 函数里获得
+注意： 在 App 里真机运行可直接打开配置的页面，微信开发者工具里需要手动改变编译模式。&lt;/p&gt;
+&lt;p&gt;演示&lt;/p&gt;
+&lt;p&gt;再创建一个测试页测试一下&lt;/p&gt;
+&lt;p&gt;配置condition条件：&lt;/p&gt;
+&lt;h3 id=&#34;六创建新页面和页面的配置-1&#34;&gt;六、创建新页面和页面的配置
+&lt;/h3&gt;&lt;p&gt;可以直接新建页面，也可以先创建目录，再创建文件。&lt;/p&gt;
+&lt;p&gt;然后去pages.json文件中设置页面路径，同时也可以配置一下页面样式。&lt;/p&gt;
+&lt;p&gt;完成，我们先通过浏览器打开看看，输入该路径即可看到刚刚创建的页面。&lt;/p&gt;
+&lt;p&gt;而且发现它成功覆盖了全局样式的导航栏标题文字。&lt;/p&gt;
+&lt;h3 id=&#34;七配置tabbar-1&#34;&gt;七、配置tabBar
+&lt;/h3&gt;&lt;p&gt;7.1 基本设置
+Tips&lt;/p&gt;
+&lt;p&gt;当设置 position 为 top 时，将不会显示 icon
+tabBar 中的 list 是一个数组，只能配置最少2个、最多5个 tab，tab 按数组的顺序排序。
+tabbar 切换第一次加载时可能渲染不及时，可以在每个tabbar页面的onLoad生命周期里先弹出一个等待雪花（hello uni-app使用了此方式）
+tabbar 的页面展现过一次后就保留在内存中，再次切换 tabbar 页面，只会触发每个页面的onShow，不会再触发onLoad。
+顶部的 tabbar 目前仅微信小程序上支持。需要用到顶部选项卡的话，不建议使用 tabbar 的顶部设置，而是自己做顶部选项卡，可参考 hello uni-app-&amp;gt;模板-&amp;gt;顶部选项卡。
+属性	类型	必填	默认值	描述	平台差异说明
+color	HexColor	是		tab 上的文字默认颜色
+selectedColor	HexColor	是		tab 上的文字选中时的颜色
+backgroundColor	HexColor	是		tab 的背景色
+borderStyle	String	否	black	tabbar 上边框的颜色，可选值 black/white，也支持其他颜色值	App 2.3.4+ 、H5 3.0.0+
+list	Array	是		tab 的列表，详见 list 属性说明，最少2个、最多5个 tab
+position	String	否	bottom	可选值 bottom、top
+top 值仅微信小程序支持&lt;/p&gt;
+&lt;p&gt;list属性的属性值如下&lt;/p&gt;
+&lt;p&gt;属性	类型	必填	说明	平台差异
+pagePath	String	是	页面路径，必须在 pages 中先定义
+text	String	是	tab 上按钮文字，在 App 和 H5 平台为非必填。例如中间可放一个没有文字的+号图标
+iconPath	String	否	图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px，当 position 为 top 时，此参数无效，不支持网络图片，不支持字体图标
+selectedIconPath	String	否	选中时的图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px ，当 position 为 top 时，此参数无效
+演示&lt;/p&gt;
+&lt;p&gt;7.2 个性化设置
+我们看到很多小程序，它的底部导航栏很多都有哪种中间图标突起的，例如这样：&lt;/p&gt;
+&lt;p&gt;它是怎么做到的呢？&lt;/p&gt;
+&lt;p&gt;其实也是tabbar里面的配置项，midButton属性，和list属性评级即可。&lt;/p&gt;
+&lt;p&gt;属性	类型	必填	默认值	描述		平台差异说明
+midButton	Object	否		中间按钮 仅在 list 项为偶数时有效	App 2.3.4+、H5 3.0.0+
+midButton 属性说明&lt;/p&gt;
+&lt;p&gt;属性	类型	必填	默认值	描述
+width	String	否	80px	中间按钮的宽度，tabBar 其它项为减去此宽度后平分，默认值为与其它项平分宽度
+height	String	否	50px	中间按钮的高度，可以大于 tabBar 高度，达到中间凸起的效果
+text	String	否		中间按钮的文字
+iconPath	String	否		中间按钮的图片路径
+iconWidth	String	否	24px	图片宽度（高度等比例缩放）
+backgroundImage	String	否		中间按钮的背景图片路径
+iconfont	Object	否		字体图标，优先级高于 iconPath
+具体代码如下：&lt;/p&gt;
+&lt;p&gt;它有个特点，就是目前只支持app、H5，也就是说小程序这些是无法展示的。&lt;/p&gt;
+&lt;p&gt;且midButton没有pagePath，需监听点击事件，自行处理点击后的行为逻辑。&lt;/p&gt;
+&lt;p&gt;具体可查阅官网：pages.json 页面路由 | uni-app官网&lt;/p&gt;
+&lt;p&gt;如果我们希望小程序端也有这个功能怎么办呢？其实可以自定义tabbar，把原生的tabbar隐藏掉。&lt;/p&gt;
+&lt;p&gt;具体实现这里就不写了，稍微有些复杂。感兴趣后面自己再搜索相关方法。官网也有相关介绍：pages.json 页面路由 | uni-app官网&lt;/p&gt;
+&lt;p&gt;当然你也可以去uniapp插件市场搜索人家弄好的插件，这样更简单一点，跟着要求一步一步调整即可。&lt;/p&gt;
+&lt;p&gt;后续有时间，我也会专门补充如何自定义设置tabbar。&lt;/p&gt;
+&lt;h3 id=&#34;八组件-1&#34;&gt;八、组件
+&lt;/h3&gt;&lt;p&gt;组件是视图层的基本组成单元。
+组件是一个单独且可复用的功能模块的封装。
+直白讲，就是标签。uniapp中除了可以使用html提供的默认标签外，uniapp还封装了一些组件可以使用。&lt;/p&gt;
+&lt;p&gt;8.1 text
+文本组件。用于包裹文本内容。&lt;/p&gt;
+&lt;p&gt;属性说明&lt;/p&gt;
+&lt;p&gt;属性名	类型	默认值	说明	平台差异说明
+selectable	Boolean	false	文本是否可选
+user-select	Boolean	false	文本是否可选	微信小程序
+space	String		显示连续空格	钉钉小程序不支持
+decode	Boolean	false	是否解码	百度、钉钉小程序不支持
+space 值说明&lt;/p&gt;
+&lt;p&gt;值	说明
+ensp	中文字符空格一半大小
+emsp	中文字符空格大小
+nbsp	根据字体设置的空格大小&lt;/p&gt;
+&lt;p&gt;8.2 icon
+icon
+图标&lt;/p&gt;
+&lt;p&gt;属性说明&lt;/p&gt;
+&lt;p&gt;属性名	类型	默认值	说明
+type	String		icon的类型
+size	Number	23	icon的大小，单位px
+color	Color		icon的颜色，同css的color
+各平台 type 有效值说明：&lt;/p&gt;
+&lt;p&gt;平台	type 有效值
+App、H5、微信小程序、QQ小程序	success, success_no_circle, info, warn, waiting, cancel, download, search, clear
+支付宝小程序	info, warn, waiting, cancel, download, search, clear, success, success_no_circle,loading
+百度小程序	success, info, warn, waiting, success_no_circle, clear, search, personal, setting, top, close, cancel, download, checkboxSelected, radioSelected, radioUnselect
+演示&lt;/p&gt;
+&lt;p&gt;由于 icon 组件各端表现存在差异，可以通过使用 字体图标 的方式来弥补各端差异。&lt;/p&gt;
+&lt;p&gt;字体图标
+另外，uniapp默认提供的图标就这些，如果希望使用个性化的图标，那么就可以使用字体图标。&lt;/p&gt;
+&lt;p&gt;uniapp 支持使用字体图标，使用方式与普通 web 项目相同，需要注意以下几点：&lt;/p&gt;
+&lt;p&gt;支持 base64 格式字体图标。
+支持网络路径字体图标。
+小程序不支持在 css 中使用本地文件，包括本地的背景图和字体文件。需以 base64 方式方可使用。
+网络路径必须加协议头 https。
+从 &lt;a class=&#34;link&#34; href=&#34;http://www.iconfont.cn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.iconfont.cn&lt;/a&gt; 上拷贝的代码，默认是没加协议头的。
+从 &lt;a class=&#34;link&#34; href=&#34;http://www.iconfont.cn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.iconfont.cn&lt;/a&gt; 上下载的字体文件，都是同名字体（字体名都叫 iconfont，安装字体文件时可以看到），在 nvue 内使用时需要注意，此字体名重复可能会显示不正常，可以使用工具修改。
+使用本地路径图标字体需注意：
+为方便开发者，在字体文件小于 40kb 时，uni-app 会自动将其转化为 base64 格式；
+字体文件大于等于 40kb，仍转换为 base64 方式使用的话可能有性能问题，如开发者必须使用，则需自己将其转换为 base64 格式使用，或将其挪到服务器上，从网络地址引用；
+字体文件的引用路径推荐使用以 ~@ 开头的绝对路径。
+话不多说，我们直接演示&lt;/p&gt;
+&lt;p&gt;除了html页面其他都复制到项目中，按照如下步骤即可：&lt;/p&gt;
+&lt;p&gt;ok，这样就算配置完成了，我们就可以在页面中使用了。&lt;/p&gt;
+&lt;p&gt;然后我们打开下载下来的文件中的html页面，找到图标对应的字体样式进行使用，使用时去掉前面的  .  号。&lt;/p&gt;
+&lt;p&gt;字体图标的颜色、大小等，我们也可以通过css样式去改变。&lt;/p&gt;
+&lt;p&gt;问题&lt;/p&gt;
+&lt;p&gt;有时候你会发现你完全按照我的步骤做的，结果在浏览器中可以使用，但是小程序中使用无法显示，且控制台还报错。这个时候要么换种资源，要么去调整一下使用https开头的网络资源。具体的问题具体解决就好了。&lt;/p&gt;
+&lt;h3 id=&#34;九页面样式与布局-1&#34;&gt;九、页面样式与布局
+&lt;/h3&gt;&lt;p&gt;uni-app 的 css 与 web 的 css 基本一致。&lt;/p&gt;
+&lt;p&gt;uni-app 有 vue 页面和 nvue 页面。vue 页面是 webview 渲染的、app 端的 nvue 页面是原生渲染的。在 nvue 页面里样式比 web 会限制更多。&lt;/p&gt;
+&lt;p&gt;本文重点介绍 vue 页面的样式注意事项。&lt;/p&gt;
+&lt;p&gt;9.1 尺寸单位
+uni-app 支持的通用 css 单位包括 px、rpx。&lt;/p&gt;
+&lt;p&gt;rpx即响应式px，一种根据屏幕宽度自适应的动态单位，以750宽的品目为基准，750rpx恰好为屏幕宽度，屏幕变宽，rpx实际显示效果会等比放大。&lt;/p&gt;
+&lt;p&gt;9.2 样式导入
+使用@import语句可以导入外联样式表，@import后跟需要导入的外联样式表的相对路径，用 ; 表示语句结束。&lt;/p&gt;
+&lt;p&gt;9.3 选择器
+目前支持的选择器有：&lt;/p&gt;
+&lt;p&gt;选择器	样例	样例描述
+.class	.intro	选择所有拥有 class=&amp;ldquo;intro&amp;rdquo; 的组件
+#id	#firstname	选择拥有 id=&amp;ldquo;firstname&amp;rdquo; 的组件
+element	view	选择所有 view 组件
+element, element	view, checkbox	选择所有文档的 view 组件和所有的 checkbox 组件
+::after	view::after	在 view 组件后边插入内容，仅 vue 页面生效
+::before	view::before	在 view 组件前边插入内容，仅 vue 页面生效
+注意：&lt;/p&gt;
+&lt;p&gt;在 uni-app 中不能使用 * 选择器。&lt;/p&gt;
+&lt;p&gt;微信小程序自定义组件中仅支持 class 选择器&lt;/p&gt;
+&lt;p&gt;page 相当于 body 节点，例如：&lt;/p&gt;
+&lt;!-- &lt;!-- 设置页面背景颜色，使用 scoped 会导致失效 -- &gt;  --&gt;
+&lt;p&gt;page {
+background-color: #ccc;
+}
+9.4 全局样式与局部样式
+定义在 App.vue 中的样式为全局样式，作用于每一个页面。在 pages 目录下 的 vue 文件中定义的样式为局部样式，只作用在对应的页面，并会覆盖 App.vue 中相同的选择器。&lt;/p&gt;
+&lt;p&gt;注意：&lt;/p&gt;
+&lt;p&gt;App.vue 中通过 @import 语句可以导入外联样式，一样作用于每一个页面。
+nvue 页面暂不支持全局样式
+9.5 使用sass
+我们在项目根目录下，可以看到一个 uni-scss文件。&lt;/p&gt;
+&lt;p&gt;uni-scss 是 uni-ui提供的一套全局样式 ，通过一些简单的类名和sass变量，实现简单的页面布局操作，比如颜色、边距、圆角等。&lt;/p&gt;
+&lt;p&gt;那么如何使用sass呢？&lt;/p&gt;
+&lt;p&gt;首先安装sass插件&lt;/p&gt;
+&lt;p&gt;使用，记得在style标签中加上属性 lang=&amp;ldquo;scss&amp;rdquo;&lt;/p&gt;
+&lt;h3 id=&#34;十vue基本语法复习-1&#34;&gt;十、Vue基本语法复习
+&lt;/h3&gt;&lt;p&gt;uniapp是基于vue进行封装的框架。所以要像使用好它，必须会vue。如果你会vue，那么可以跳过这里不看，如果你不会，那么我会简单跟大家一起学习一下。&lt;/p&gt;
+&lt;p&gt;获取事件对象&lt;/p&gt;
+&lt;p&gt;如果v-on:中方法没有传参数，那么默认拿到的是事件对象&lt;/p&gt;
+&lt;p&gt;只需要在方法上传一个形参即可。&lt;/p&gt;
+&lt;h3 id=&#34;十一uniapp的生命周期-1&#34;&gt;十一、uniapp的生命周期
+&lt;/h3&gt;&lt;p&gt;应用的生命周期
+App.vue/App.uvue | uni-app官网&lt;/p&gt;
+&lt;p&gt;生命周期的概念&lt;/p&gt;
+&lt;p&gt;一个对象从创建、运行、销毁的整个过程。&lt;/p&gt;
+&lt;p&gt;生命周期函数&lt;/p&gt;
+&lt;p&gt;在生命周期中每个阶段会伴随着函数的触发，这些函数被称为生命周期函数。&lt;/p&gt;
+&lt;p&gt;uni-app支持如下应用生命周期函数&lt;/p&gt;
+&lt;p&gt;函数名	说明
+onLauch	当uni-app初始化完成时触发（全局只触发一次）
+onShow	当uni-app启动，或从后台进入前台显示
+onHide	当uni-app从前台进入后台
+onError	当uni-app报错时触发&lt;/p&gt;
+&lt;p&gt;页面的生命周期
+页面简介 | uni-app官网&lt;/p&gt;
+&lt;p&gt;uni-app 支持如下页面生命周期函数：&lt;/p&gt;
+&lt;p&gt;函数名	说明	平台差异说明	最低版本
+onInit	监听页面初始化，其参数同 onLoad 参数，为上个页面传递的数据，参数类型为 Object（用于页面传参），触发时机早于 onLoad	百度小程序	3.1.0+
+onLoad	监听页面加载，其参数为上个页面传递的数据，参数类型为 Object（用于页面传参），参考示例	
+onShow	监听页面显示。页面每次出现在屏幕上都触发，包括从下级页面点返回露出当前页面	
+onReady	监听页面初次渲染完成。注意如果渲染速度快，会在页面进入动画完成前触发	
+onHide	监听页面隐藏	
+onUnload	监听页面卸载	
+onResize	监听窗口尺寸变化	App、微信小程序、快手小程序
+onPullDownRefresh	监听用户下拉动作，一般用于下拉刷新，参考示例	
+onReachBottom	页面滚动到底部的事件（不是scroll-view滚到底），常用于下拉下一页数据。具体见下方注意事项	
+onTabItemTap	点击 tab 时触发，参数为Object，具体见下方注意事项	微信小程序、QQ小程序、支付宝小程序、百度小程序、H5、App、快手小程序、京东小程序&lt;/p&gt;
+&lt;p&gt;我们最小化页面，然后打开&lt;/p&gt;
+&lt;p&gt;我们从tabBar切换，也是一样的道理。&lt;/p&gt;
+&lt;h3 id=&#34;十二下拉刷新-1&#34;&gt;十二、下拉刷新
+&lt;/h3&gt;&lt;p&gt;前面讲过下拉刷新的一种方式，是通过全局配置。&lt;/p&gt;
+&lt;p&gt;但是我们不推荐，我们希望那个页面有需要就开启，没有需要不要开启。&lt;/p&gt;
+&lt;p&gt;我们希望下拉刷新了触发一些事件&lt;/p&gt;
+&lt;p&gt;只需要通过onPullDownRefresh函数即可。在前面页面的生命周期函数中有列举过。&lt;/p&gt;
+&lt;p&gt;一旦刷新完成之后，我们就可以通过uni.stopPullDownRefresh();关闭&lt;/p&gt;
+&lt;h3 id=&#34;十三上拉加载-1&#34;&gt;十三、上拉加载
+&lt;/h3&gt;&lt;p&gt;我们发现还没有触底就开始说触底了，这是因为有默认的触底距离 。我们可以设置默认触底距离&lt;/p&gt;
+&lt;p&gt;然后再来测试一下就好了。这里不演示了。&lt;/p&gt;
+&lt;p&gt;触底之后，我们可以给他加载下一页数据。&lt;/p&gt;
+&lt;h3 id=&#34;十四网络请求-1&#34;&gt;十四、网络请求
+&lt;/h3&gt;&lt;p&gt;uni.request(OBJECT) | uni-app官网&lt;/p&gt;
+&lt;p&gt;14.1 uni.request(OBJECT)
+发起网络请求。&lt;/p&gt;
+&lt;p&gt;在各个小程序平台运行时，网络相关的 API 在使用前需要配置域名白名单。&lt;/p&gt;
+&lt;p&gt;OBJECT 参数说明&lt;/p&gt;
+&lt;p&gt;参数名	类型	必填	默认值	说明	平台差异说明
+url	String	是		开发者服务器接口地址
+data	Object/String/ArrayBuffer	否		请求的参数	App 3.3.7 以下不支持 ArrayBuffer 类型
+header	Object	否		设置请求的 header，header 中不能设置 Referer	App、H5端会自动带上cookie，且H5端不可手动修改
+method	String	否	GET	有效值详见下方说明
+timeout	Number	否	60000	超时时间，单位 ms	H5(HBuilderX 2.9.9+)、APP(HBuilderX 2.9.9+)、微信小程序（2.10.0）、支付宝小程序
+dataType	String	否	json	如果设为 json，会尝试对返回的数据做一次 JSON.parse
+responseType	String	否	text	设置响应的数据类型。合法值：text、arraybuffer	支付宝小程序不支持
+sslVerify	Boolean	否	true	验证 ssl 证书	仅App安卓端支持（HBuilderX 2.3.3+），不支持离线打包
+withCredentials	Boolean	否	false	跨域请求时是否携带凭证（cookies）	仅H5支持（HBuilderX 2.6.15+）
+firstIpv4	Boolean	否	false	DNS解析时优先使用ipv4	仅 App-Android 支持 (HBuilderX 2.8.0+)
+enableHttp2	Boolean	否	false	开启 http2	微信小程序
+enableQuic	Boolean	否	false	开启 quic	微信小程序
+enableCache	Boolean	否	false	开启 cache	微信小程序、字节跳动小程序 2.31.0+
+enableHttpDNS	Boolean	否	false	是否开启 HttpDNS 服务。如开启，需要同时填入 httpDNSServiceId 。 HttpDNS 用法详见 移动解析HttpDNS	微信小程序
+httpDNSServiceId	String	否		HttpDNS 服务商 Id。 HttpDNS 用法详见 移动解析HttpDNS	微信小程序
+enableChunked	Boolean	否	false	开启 transfer-encoding chunked	微信小程序
+forceCellularNetwork	Boolean	否	false	wifi下使用移动网络发送请求	微信小程序
+enableCookie	Boolean	否	false	开启后可在headers中编辑cookie	支付宝小程序 10.2.33+
+cloudCache	Object/Boolean	否	false	是否开启云加速（详见云加速服务）	百度小程序 3.310.11+
+defer	Boolean	否	false	控制当前请求是否延时至首屏内容渲染后发送	百度小程序 3.310.11+
+success	Function	否		收到开发者服务器成功返回的回调函数
+fail	Function	否		接口调用失败的回调函数
+complete	Function	否		接口调用结束的回调函数（调用成功、失败都会执行）
+method 有效值&lt;/p&gt;
+&lt;p&gt;注意：method有效值必须大写，每个平台支持的method有效值不同，详细见下表。&lt;/p&gt;
+&lt;p&gt;method	App	H5	微信小程序	支付宝小程序	百度小程序	字节跳动小程序、飞书小程序	快手小程序	京东小程序
+GET	√	√	√	√	√	√	√	√
+POST	√	√	√	√	√	√	√	√
+PUT	√	√	√	x	√	√	x	x
+DELETE	√	√	√	x	√	x	x	x
+CONNECT	x	√	√	x	x	x	x	x
+HEAD	√	√	√	x	√	x	x	x
+OPTIONS	√	√	√	x	√	x	x	x
+TRACE	x	√	√	x	x	x	x	x
+success 返回参数说明&lt;/p&gt;
+&lt;p&gt;参数	类型	说明
+data	Object/String/ArrayBuffer	开发者服务器返回的数据
+statusCode	Number	开发者服务器返回的 HTTP 状态码
+header	Object	开发者服务器返回的 HTTP Response Header
+cookies	Array.&lt;string&gt;	开发者服务器返回的 cookies，格式为字符串数组
+data 数据说明&lt;/p&gt;
+&lt;p&gt;最终发送给服务器的数据是 String 类型，如果传入的 data 不是 String 类型，会被转换成 String。转换规则如下：&lt;/p&gt;
+&lt;p&gt;对于 GET 方法，会将数据转换为 query string。例如 { name: &amp;rsquo;name&amp;rsquo;, age: 18 } 转换后的结果是 name=name&amp;amp;age=18。&lt;/p&gt;
+&lt;p&gt;对于 POST 方法且 header[&amp;lsquo;content-type&amp;rsquo;] 为 application/json 的数据，会进行 JSON 序列化。&lt;/p&gt;
+&lt;p&gt;对于 POST 方法且 header[&amp;lsquo;content-type&amp;rsquo;] 为 application/x-www-form-urlencoded 的数据，会将数据转换为 query string。&lt;/p&gt;
+&lt;p&gt;测试&lt;/p&gt;
+&lt;p&gt;我们先用springboot搞一个测试接口。&lt;/p&gt;
+&lt;p&gt;接口没有问题，然后我们试一试&lt;/p&gt;
+&lt;p&gt;ok，搞定&lt;/p&gt;
+&lt;p&gt;我们发现一个问题，就是小程序内部运行机制与网页不同，小程序中的代码并不运行在浏览器中，因为小程序开发中，不存在数据的跨域请求限制。&lt;/p&gt;
+&lt;p&gt;所以我们不做跨域处理也可以访问。&lt;/p&gt;
+&lt;p&gt;问题&lt;/p&gt;
+&lt;p&gt;如果微信开发者工具中，没有发送成功，可以试试如下方法。&lt;/p&gt;
+&lt;p&gt;14.2 二次封装请求对象
+如果像上面那样，每次调用我都要去写请求的ip地址端口号，显得有些麻烦。&lt;/p&gt;
+&lt;p&gt;假如说ip地址或者端口号变了，那就得每一个请求都要逐一修改，这是很恐怖的！&lt;/p&gt;
+&lt;p&gt;所以，我们需要统一进行二次封装，对这些公共的参数统一进行设置或者修改。减少冗余，提高效率。&lt;/p&gt;
+&lt;p&gt;request.js&lt;/p&gt;
+&lt;p&gt;const BASE_URL = &amp;lsquo;http://localhost:8000&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;export const myRequest = (options) =&amp;gt; {
+return new Promise((resove,reject)=&amp;gt;{
+uni.request({
+url: BASE_URL + options.url,
+method: options.method || &amp;lsquo;GET&amp;rsquo;,
+data: options.data || {},
+success: (res) =&amp;gt; {
+if(res.data.code != 1){
+return uni.showToast({
+title:&amp;lsquo;获取数据失败&amp;rsquo;
+})
+}
+resove(res)
+},
+fail: (err) =&amp;gt; {
+uni.showToast({
+title:&amp;lsquo;请求接口失败&amp;rsquo;
+}),
+reject(err)
+}
+})
+})
+}
+main.js&lt;/p&gt;
+&lt;p&gt;测试：编写页面调接口&lt;/p&gt;
+&lt;p&gt;这次我们换个接口试试&lt;/p&gt;
+&lt;p&gt;（哈哈，其实上面的那个接口是我年初写的，现在找不到代码了，自己重写😂）&lt;/p&gt;
+&lt;p&gt;我们尝试关闭接口，再次刷新页面发现页面显示：请求接口失败。ok，完全符合。&lt;/p&gt;
+&lt;p&gt;又因为我们的请求是通过Promise返回的，所以我们可以异步的去调用方法。稍微修改一下，也能成功获取到。（记得重启后端项目哦😆）&lt;/p&gt;
+&lt;h3 id=&#34;十五数据缓存-1&#34;&gt;十五、数据缓存
+&lt;/h3&gt;&lt;p&gt;15.1 uni.setStorage(OBJECT)
+将数据存储在本地缓存中指定的 key 中，会覆盖掉原来该 key 对应的内容，这是一个异步接口。&lt;/p&gt;
+&lt;p&gt;OBJECT 参数说明&lt;/p&gt;
+&lt;p&gt;参数名	类型	必填	说明
+key	String	是	本地缓存中的指定的 key
+data	Any	是	需要存储的内容，只支持原生类型、及能够通过 JSON.stringify 序列化的对象
+success	Function	否	接口调用成功的回调函数
+fail	Function	否	接口调用失败的回调函数
+complete	Function	否	接口调用结束的回调函数（调用成功、失败都会执行）&lt;/p&gt;
+&lt;p&gt;15.2 uni.getStorage(OBJECT)
+从本地缓存中异步获取指定 key 对应的内容。&lt;/p&gt;
+&lt;p&gt;OBJECT 参数说明&lt;/p&gt;
+&lt;p&gt;参数名	类型	必填	说明
+key	String	是	本地缓存中的指定的 key
+success	Function	是	接口调用的回调函数，res = {data: key对应的内容}
+fail	Function	否	接口调用失败的回调函数
+complete	Function	否	接口调用结束的回调函数（调用成功、失败都会执行）
+success 返回参数说明&lt;/p&gt;
+&lt;p&gt;参数	类型	说明
+data	Any	key 对应的内容&lt;/p&gt;
+&lt;p&gt;15.3 uni.removeStorage(OBJECT)
+从本地缓存中异步移除指定 key。&lt;/p&gt;
+&lt;p&gt;OBJECT 参数说明&lt;/p&gt;
+&lt;p&gt;参数名	类型	必填	说明
+key	String	是	本地缓存中的指定的 key
+success	Function	是	接口调用的回调函数
+fail	Function	否	接口调用失败的回调函数
+complete	Function	否	接口调用结束的回调函数（调用成功、失败都会执行）&lt;/p&gt;
+&lt;p&gt;15.4 uni.setStorageSync(KEY,DATA)
+将 data 存储在本地缓存中指定的 key 中，会覆盖掉原来该 key 对应的内容，这是一个同步接口。&lt;/p&gt;
+&lt;p&gt;15.5 uni.getStorageSync(KEY)
+从本地缓存中同步获取指定 key 对应的内容。&lt;/p&gt;
+&lt;p&gt;15.6 uni.removeStorageSync(KEY)
+从本地缓存中同步移除指定 key。&lt;/p&gt;
+&lt;h3 id=&#34;十六图片的上传和预览-1&#34;&gt;十六、图片的上传和预览
+&lt;/h3&gt;&lt;p&gt;16.1 上传
+uni.chooseImage(OBJECT)&lt;/p&gt;
+&lt;p&gt;从本地相册选择图片或使用相机拍照。&lt;/p&gt;
+&lt;p&gt;App端如需要更丰富的相机拍照API（如直接调用前置摄像头），参考plus.camera&lt;/p&gt;
+&lt;p&gt;微信小程序从基础库 2.21.0 开始， wx.chooseImage 停止维护，请使用 uni.chooseMedia 代替。&lt;/p&gt;
+&lt;p&gt;OBJECT 参数说明&lt;/p&gt;
+&lt;p&gt;参数名	类型	必填	说明	平台差异说明
+count	Number	否	最多可以选择的图片张数，默认9	见下方说明
+sizeType	Array&lt;String&gt;	否	original 原图，compressed 压缩图，默认二者都有	App、微信小程序、支付宝小程序、百度小程序
+extension	Array&lt;String&gt;	否	根据文件拓展名过滤，每一项都不能是空字符串。默认不过滤。	H5(HBuilder X2.9.9+)
+sourceType	Array&lt;String&gt;	否	album 从相册选图，camera 使用相机，默认二者都有。如需直接开相机或直接选相册，请只使用一个选项
+crop	Object	否	图像裁剪参数，设置后 sizeType 失效	App 3.1.19+
+success	Function	是	成功则返回图片的本地文件路径列表 tempFilePaths
+fail	Function	否	接口调用失败的回调函数	小程序、App
+complete	Function	否	接口调用结束的回调函数（调用成功、失败都会执行）
+crop 参数说明&lt;/p&gt;
+&lt;p&gt;参数名	类型	必填	说明	平台差异说明
+quality	Number	否	取值范围为1-100，数值越小，质量越低（仅对jpg格式有效）。默认值为80。
+width	Number	是	裁剪的宽度，单位为px，用于计算裁剪宽高比。
+height	Number	是	裁剪的高度，单位为px，用于计算裁剪宽高比。
+resize	Boolean	否	是否将width和height作为裁剪保存图片真实的像素值。默认值为true。注：设置为false时在裁剪编辑界面显示图片的像素值，设置为true时不显示
+Tips&lt;/p&gt;
+&lt;p&gt;count 值在 H5 平台的表现，基于浏览器本身的规范。目前测试的结果来看，只能限制单选/多选，并不能限制数量。并且，在实际的手机浏览器很少有能够支持多选的。&lt;/p&gt;
+&lt;p&gt;sourceType 值在 H5 平台根据浏览器的不同而表现不同，一般不可限制仅使用相册，部分浏览器也无法限制是否使用相机。&lt;/p&gt;
+&lt;p&gt;可以通过用户授权API来判断用户是否给应用授予相册或摄像头的访问权限uni.authorize(OBJECT) | uni-app官网&lt;/p&gt;
+&lt;p&gt;App端如需选择非媒体文件，可在插件市场搜索文件选择，其中Android端可以使用Native.js，无需原生插件，而iOS端需要原生插件。&lt;/p&gt;
+&lt;p&gt;选择照片大多为了上传，uni ui封装了更完善的uni-file-picker组件，文件选择、上传到uniCloud的免费存储和cdn中，一站式集成。强烈推荐使用。&lt;/p&gt;
+&lt;p&gt;注：文件的临时路径，在应用本次启动期间可以正常使用，如需持久保存，需在主动调用 uni.saveFile，在应用下次启动时才能访问得到。&lt;/p&gt;
+&lt;p&gt;success 返回参数说明&lt;/p&gt;
+&lt;p&gt;参数	类型	说明
+tempFilePaths	Array&lt;String&gt;	图片的本地文件路径列表
+tempFiles	Array&lt;Object&gt;、Array&lt;File&gt;	图片的本地文件列表，每一项是一个 File 对象
+File 对象结构如下&lt;/p&gt;
+&lt;p&gt;参数	类型	说明
+path	String	本地文件路径
+size	Number	本地文件大小，单位：B
+name	String	包含扩展名的文件名称，仅H5支持
+type	String	文件类型，仅H5支持&lt;/p&gt;
+&lt;p&gt;ok，这是简单的从本地获取图片到页面展示。但是真正的上传还没有完成。&lt;/p&gt;
+&lt;p&gt;这里我打算调用后端接口完成上传过程。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

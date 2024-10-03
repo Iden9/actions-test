@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="记录搭建Hugo 博客，使用stack主题快速启动部署 记录搭建Hugo 博客，使用stack主题快速启动部署\n选择Hugo Hugo 比较偏向后端，编译速度非常快，就这么简单。\n简单记录一下过程 首要任务是选择一个简单好看的主题：hugo-theme-stack\n这个主题最初是在V2EX 看到的，挺小清新的，符合现代审美。然后在Hugo的官方主题商店看到了它。\n看起来主题的亮色模式有点太白了，有些文字看得不是很清楚，后面再想办法调整一下。\n一开始看Hugo官方文档使用命令行新建一个Hugo项目再添加这个主题，因为有一些设置覆盖，一直没弄好，后面参考文档直接使用了这个主题的快速入门模板项目， 直接拉下来，调整配置直接运行起来了，目前使用项目自带的GitHub Action地配置搭配了一个二级域名部署在了GitHub Page上了。\n接下来仔细说说自己做了那些事，改了哪些东西。因为没有参考任何的教程，查找地相关教程都比较笼统，没有针对这个主题的教程，所以下面的内容全都是自己折腾实验的。\n改配置 快速启动模板的GitHub 地址：\nCaiJimmy/hugo-theme-stack-starter\ngit clone https://github.com/CaiJimmy/hugo-theme-stack-starter\n先把代码拉下来，所有的配置文件都在/config/_default 文件夹内，配置文件有很多，自己修改了其中个别几个，下面详细讲讲。\nconfig.toml 博客的基本信息\n标题，用户名，部署的域名，语言\nbaseurl = &ldquo;https://blog.tuwei.space&rdquo; languageCode = &ldquo;zh-Hans&rdquo; paginate = 5 title = &ldquo;koala9527的博客&rdquo;\nDefaultContentLanguage = &ldquo;zh-cn&rdquo;\nhasCJKLanguage = false\nChange it to your Disqus shortname before using disqusShortname = &ldquo;koala9527&rdquo; menu.toml 博客菜单\n删掉了Twitter联系方式，更改GitHub地址，没有什么拿得出手的，就留这个吧。\n[[social]] identifier = &ldquo;github&rdquo; name = &ldquo;GitHub&rdquo; url = &ldquo;https://github.com/koala9527\"\n">
+<title>Hugo Stack Quick Start</title>
+
+<link rel='canonical' href='https://demo.stack.jimmycai.com/p/hugo-stack-quick-start/'>
+
+<link rel="stylesheet" href="/scss/style.min.b5b39ef3c302121ca9a939f74d36fee47f708443e833f8934e00855acf42feb0.css"><meta property='og:title' content="Hugo Stack Quick Start">
+<meta property='og:description' content="记录搭建Hugo 博客，使用stack主题快速启动部署 记录搭建Hugo 博客，使用stack主题快速启动部署\n选择Hugo Hugo 比较偏向后端，编译速度非常快，就这么简单。\n简单记录一下过程 首要任务是选择一个简单好看的主题：hugo-theme-stack\n这个主题最初是在V2EX 看到的，挺小清新的，符合现代审美。然后在Hugo的官方主题商店看到了它。\n看起来主题的亮色模式有点太白了，有些文字看得不是很清楚，后面再想办法调整一下。\n一开始看Hugo官方文档使用命令行新建一个Hugo项目再添加这个主题，因为有一些设置覆盖，一直没弄好，后面参考文档直接使用了这个主题的快速入门模板项目， 直接拉下来，调整配置直接运行起来了，目前使用项目自带的GitHub Action地配置搭配了一个二级域名部署在了GitHub Page上了。\n接下来仔细说说自己做了那些事，改了哪些东西。因为没有参考任何的教程，查找地相关教程都比较笼统，没有针对这个主题的教程，所以下面的内容全都是自己折腾实验的。\n改配置 快速启动模板的GitHub 地址：\nCaiJimmy/hugo-theme-stack-starter\ngit clone https://github.com/CaiJimmy/hugo-theme-stack-starter\n先把代码拉下来，所有的配置文件都在/config/_default 文件夹内，配置文件有很多，自己修改了其中个别几个，下面详细讲讲。\nconfig.toml 博客的基本信息\n标题，用户名，部署的域名，语言\nbaseurl = &ldquo;https://blog.tuwei.space&rdquo; languageCode = &ldquo;zh-Hans&rdquo; paginate = 5 title = &ldquo;koala9527的博客&rdquo;\nDefaultContentLanguage = &ldquo;zh-cn&rdquo;\nhasCJKLanguage = false\nChange it to your Disqus shortname before using disqusShortname = &ldquo;koala9527&rdquo; menu.toml 博客菜单\n删掉了Twitter联系方式，更改GitHub地址，没有什么拿得出手的，就留这个吧。\n[[social]] identifier = &ldquo;github&rdquo; name = &ldquo;GitHub&rdquo; url = &ldquo;https://github.com/koala9527\"\n">
+<meta property='og:url' content='https://demo.stack.jimmycai.com/p/hugo-stack-quick-start/'>
+<meta property='og:site_name' content='我的博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='theme' /><meta property='article:published_time' content='2024-10-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-02T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Hugo Stack Quick Start">
+<meta name="twitter:description" content="记录搭建Hugo 博客，使用stack主题快速启动部署 记录搭建Hugo 博客，使用stack主题快速启动部署\n选择Hugo Hugo 比较偏向后端，编译速度非常快，就这么简单。\n简单记录一下过程 首要任务是选择一个简单好看的主题：hugo-theme-stack\n这个主题最初是在V2EX 看到的，挺小清新的，符合现代审美。然后在Hugo的官方主题商店看到了它。\n看起来主题的亮色模式有点太白了，有些文字看得不是很清楚，后面再想办法调整一下。\n一开始看Hugo官方文档使用命令行新建一个Hugo项目再添加这个主题，因为有一些设置覆盖，一直没弄好，后面参考文档直接使用了这个主题的快速入门模板项目， 直接拉下来，调整配置直接运行起来了，目前使用项目自带的GitHub Action地配置搭配了一个二级域名部署在了GitHub Page上了。\n接下来仔细说说自己做了那些事，改了哪些东西。因为没有参考任何的教程，查找地相关教程都比较笼统，没有针对这个主题的教程，所以下面的内容全都是自己折腾实验的。\n改配置 快速启动模板的GitHub 地址：\nCaiJimmy/hugo-theme-stack-starter\ngit clone https://github.com/CaiJimmy/hugo-theme-stack-starter\n先把代码拉下来，所有的配置文件都在/config/_default 文件夹内，配置文件有很多，自己修改了其中个别几个，下面详细讲讲。\nconfig.toml 博客的基本信息\n标题，用户名，部署的域名，语言\nbaseurl = &ldquo;https://blog.tuwei.space&rdquo; languageCode = &ldquo;zh-Hans&rdquo; paginate = 5 title = &ldquo;koala9527的博客&rdquo;\nDefaultContentLanguage = &ldquo;zh-cn&rdquo;\nhasCJKLanguage = false\nChange it to your Disqus shortname before using disqusShortname = &ldquo;koala9527&rdquo; menu.toml 博客菜单\n删掉了Twitter联系方式，更改GitHub地址，没有什么拿得出手的，就留这个吧。\n[[social]] identifier = &ldquo;github&rdquo; name = &ldquo;GitHub&rdquo; url = &ldquo;https://github.com/koala9527\"\n">
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/102173622?v=4" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="https://avatars.githubusercontent.com/u/102173622?v=4" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">我的博客</a></h1>
+            <h2 class="site-description">简单介绍</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://www.bilibili.com/'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-bilibili" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" />
+  <path d="M8 3l2 3" />
+  <path d="M16 3l-2 3" />
+  <path d="M9 13v-2" />
+  <path d="M15 11v2" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.douyin.com/'
+                        target="_blank"
+                        title="Tiktok"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/document/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard-text" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+  <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+  <path d="M9 12h6" />
+  <path d="M9 16h6" />
+</svg>
+                
+                <span>Document</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/blog/" >
+                Blog
+            </a>
+        
+            <a href="/categories/web/" >
+                Web
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/hugo-stack-quick-start/">Hugo Stack Quick Start</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 02, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>记录搭建Hugo 博客，使用stack主题快速启动部署
+记录搭建Hugo 博客，使用stack主题快速启动部署</p>
+<p>选择Hugo
+Hugo 比较偏向后端，编译速度非常快，就这么简单。</p>
+<p>简单记录一下过程
+首要任务是选择一个简单好看的主题：hugo-theme-stack</p>
+<p>这个主题最初是在V2EX 看到的，挺小清新的，符合现代审美。然后在Hugo的官方主题商店看到了它。</p>
+<p>看起来主题的亮色模式有点太白了，有些文字看得不是很清楚，后面再想办法调整一下。</p>
+<p>一开始看Hugo官方文档使用命令行新建一个Hugo项目再添加这个主题，因为有一些设置覆盖，一直没弄好，后面参考文档直接使用了这个主题的快速入门模板项目， 直接拉下来，调整配置直接运行起来了，目前使用项目自带的GitHub Action地配置搭配了一个二级域名部署在了GitHub Page上了。</p>
+<p>接下来仔细说说自己做了那些事，改了哪些东西。因为没有参考任何的教程，查找地相关教程都比较笼统，没有针对这个主题的教程，所以下面的内容全都是自己折腾实验的。</p>
+<p>改配置
+快速启动模板的GitHub 地址：</p>
+<p>CaiJimmy/hugo-theme-stack-starter</p>
+<p>git clone <a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter"  target="_blank" rel="noopener"
+    >https://github.com/CaiJimmy/hugo-theme-stack-starter</a></p>
+<p>先把代码拉下来，所有的配置文件都在/config/_default 文件夹内，配置文件有很多，自己修改了其中个别几个，下面详细讲讲。</p>
+<p>config.toml
+博客的基本信息</p>
+<p>标题，用户名，部署的域名，语言</p>
+<p>baseurl = &ldquo;<a class="link" href="https://blog.tuwei.space"  target="_blank" rel="noopener"
+    >https://blog.tuwei.space</a>&rdquo;
+languageCode = &ldquo;zh-Hans&rdquo;
+paginate = 5
+title = &ldquo;koala9527的博客&rdquo;</p>
+<p>DefaultContentLanguage = &ldquo;zh-cn&rdquo;</p>
+<p>hasCJKLanguage = false</p>
+<h1 id="change-it-to-your-disqus-shortname-before-using">Change it to your Disqus shortname before using
+</h1><p>disqusShortname = &ldquo;koala9527&rdquo;
+menu.toml
+博客菜单</p>
+<p>删掉了Twitter联系方式，更改GitHub地址，没有什么拿得出手的，就留这个吧。</p>
+<p>[[social]]
+identifier = &ldquo;github&rdquo;
+name = &ldquo;GitHub&rdquo;
+url = &ldquo;<a class="link" href="https://github.com/koala9527%22"  target="_blank" rel="noopener"
+    >https://github.com/koala9527"</a></p>
+<p>[social.params]
+icon = &ldquo;brand-github&rdquo;
+params.toml
+杂项，很多配置，没有仔细研究</p>
+<p>我只改了两项，个性签名和头像。</p>
+<p>[sidebar]
+emoji = &quot; &quot;
+subtitle = &ldquo;悟已往者不谏,知来者知可追&rdquo;</p>
+<p>[sidebar.avatar]
+enabled = true
+local = true
+src = &ldquo;img/avatar.jpg&rdquo;</p>
+<p>这里需要注意的是头像的文件位置，需要在项目根目录新建一个assets/img文件夹，把头像的图片文件放进去，官方文档是这么说的：</p>
+<p>部署
+先要在GitHub 新建一个公开的项目，我的自己项目地址： koala9527/my-hugo-blog</p>
+<p>此时需要注意推送的分支需要和快速启动模板内.github/deploy.yml文件的CI触发的分支一致。</p>
+<p>我一开始没看见注意使用的是main这个名字，项目中的出发分支名称是master无法触发自动部署。</p>
+<p>img.png</p>
+<p>接着把本地修改的内容全部提交到刚刚新建的Github仓库，注意分支，Git仓库会触发Github Action自动新建一个gh-page的分支，会自动把content文件夹里面的内容编译到一个public文件夹，一个纯前端文件的项目，这个gh-page分支的内容就是public文件夹的内容。</p>
+<p>目前的项目的目录结构：</p>
+<p>解析域名
+点击项目的Settings-&gt;pages</p>
+<p>设置部署构建来源设置成来自分支</p>
+<p>分支名称为gh-pages</p>
+<p>然后再设置一个自定义域名</p>
+<p>设置域名过后需要在域名DNS服务商设置DNS解析。</p>
+<p>上面是是Git账号的域名解析，不确定是不是必须的，在账号设置下的page菜单中添加，添加过后会提示需要一个TXT类型域名解析用来 验证域名的所有权。</p>
+<p>下面是项目的自定义域名解析，是一个二级域名，二级域名记录为blog，解析内容为http://koala9527.github.io ,记录类型为CNAME,koala9527为我自己的Github名称。</p>
+<p>到此为止，整个博客的从零开始到上线部署就完成了。</p>
+<p>写在最后
+GitHub的访问貌似有一点慢，后面考虑部署到CDN上面吧，静态页面博客部署，访问，迁移非常地方便快速，这些优点就非常明显！</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/hugo/">Hugo</a>
+        
+            <a href="/tags/theme/">Theme</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>daixun</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/react/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">React</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/uni-app.png" loading="lazy" data-key="" data-hash="https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/uni-app.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Uniapp 开发篇</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 我的博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
