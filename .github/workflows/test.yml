@@ -1,12 +1,42 @@
-on: push
+# on: push
+
+# jobs:
+#     hugo-build:
+#         runs-on: ubuntu-latest
+#         steps:
+#         - run: pwd
+#         - run: ls
+    # job1:
+    #     runs-on: ubuntu-latest
+    #     steps:
+    #     - run: pwd
+    #     - run: ls         
+    # job2:
+    #     runs-on: windows-latest
+    #     steps:
+    #     - run: node --versionname: Hugo Build
+
+name: Hugo Build
+
+on: 
+  push:
 
 jobs:
-    job1:
-        runs-on: ubuntu-latest
-        steps:
-        - run: pwd
-        - run: ls         
-    job2:
-        runs-on: windows-latest
-        steps:
-        - run: node --version
+  hugo-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Hugo Extended
+        run: |
+          brew install hugo
+
+      - name: Build Hugo site
+        run: |
+          hugo
+
+      - name: List files
+        run: ls -al
+
