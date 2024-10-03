@@ -18,11 +18,13 @@
 
 name: Build and Deploy Hugo Site
 
-on:
+on: 
   push:
     branches:
       - main  # 指定要触发的分支
 
+permissions:
+    contents: write      
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -45,3 +47,9 @@ jobs:
 
       - name: List generated files
         run: ls -al public  # 列出生成的文件，以便调试
+
+      - name: 部署
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+            branch: gh-pages
+            folder: public
