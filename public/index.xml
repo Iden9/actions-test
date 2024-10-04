@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>我的博客</title>
-        <link>http://localhost:1313/</link>
+        <link>http://localhost:1313/actions-test/</link>
         <description>Recent content on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/actions-test/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【Hugo】Stack主题的使用记录</title>
-        <link>http://localhost:1313/p/hugostack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
+        <link>http://localhost:1313/actions-test/p/hugostack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/hugostack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
+        <guid>http://localhost:1313/actions-test/p/hugostack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
         <description>&lt;img src="https://hugo.opendocs.io/images/hugo-logo-wide.svg" alt="Featured image of post 【Hugo】Stack主题的使用记录" /&gt;&lt;p&gt;Hugo官网&lt;/p&gt;
 &lt;p&gt;运行环境
 hugo版本：v0.117.0（扩展版）&lt;/p&gt;
@@ -947,20 +947,20 @@ provider: waline&lt;/p&gt;
         </item>
         <item>
         <title>创建Vue项目</title>
-        <link>http://localhost:1313/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/</link>
+        <link>http://localhost:1313/actions-test/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/</guid>
+        <guid>http://localhost:1313/actions-test/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/</guid>
         <description>&lt;img src="https://avatars.githubusercontent.com/u/102173622?v=4" alt="Featured image of post 创建Vue项目" /&gt;&lt;p&gt;如何创建Vue项目&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Hello World</title>
-        <link>http://localhost:1313/p/hello-world/</link>
+        <link>http://localhost:1313/actions-test/p/hello-world/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/hello-world/</guid>
-        <description>&lt;img src="http://localhost:1313/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
+        <guid>http://localhost:1313/actions-test/p/hello-world/</guid>
+        <description>&lt;img src="http://localhost:1313/actions-test/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
 &lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -973,11 +973,314 @@ provider: waline&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>Git Operate</title>
+        <link>http://localhost:1313/actions-test/p/git-operate/</link>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/actions-test/p/git-operate/</guid>
+        <description>&lt;img src="http://localhost:1313/actions-test/p/git-operate/gitlogo.jpeg" alt="Featured image of post Git Operate" /&gt;&lt;p&gt;以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。&lt;/p&gt;
+&lt;h3 id=&#34;1-基础-git-操作&#34;&gt;1. &lt;strong&gt;基础 Git 操作&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;初始化仓库和克隆仓库&#34;&gt;初始化仓库和克隆仓库
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git init&lt;/code&gt;&lt;br&gt;
+初始化一个新的 Git 仓库。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git clone &amp;lt;repository-url&amp;gt;&lt;/code&gt;&lt;br&gt;
+克隆远程仓库到本地。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;查看状态&#34;&gt;查看状态
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git status&lt;/code&gt;&lt;br&gt;
+查看当前工作区状态（文件是否被修改、是否在暂存区等）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;添加文件到暂存区&#34;&gt;添加文件到暂存区
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git add &amp;lt;file&amp;gt;&lt;/code&gt;&lt;br&gt;
+将文件添加到暂存区。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;br&gt;
+将所有改动的文件添加到暂存区。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;提交改动&#34;&gt;提交改动
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git commit -m &amp;quot;message&amp;quot;&lt;/code&gt;&lt;br&gt;
+提交暂存区中的更改到本地仓库，并添加提交信息。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git commit --amend&lt;/code&gt;&lt;br&gt;
+修改最近一次提交的信息或内容（不建议在已经推送的分支上使用）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-分支管理&#34;&gt;2. &lt;strong&gt;分支管理&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;创建和切换分支&#34;&gt;创建和切换分支
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git branch &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+创建一个新的分支。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git checkout &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+切换到指定分支。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git checkout -b &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+创建并切换到一个新分支。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;查看分支&#34;&gt;查看分支
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git branch&lt;/code&gt;&lt;br&gt;
+列出本地分支。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git branch -r&lt;/code&gt;&lt;br&gt;
+列出远程分支。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git branch -a&lt;/code&gt;&lt;br&gt;
+列出所有分支（本地和远程）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;删除分支&#34;&gt;删除分支
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git branch -d &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+删除本地分支（分支必须已被合并）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git branch -D &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+强制删除本地分支（即使未合并）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-远程仓库操作&#34;&gt;3. &lt;strong&gt;远程仓库操作&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;添加远程仓库&#34;&gt;添加远程仓库
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git remote add origin &amp;lt;repository-url&amp;gt;&lt;/code&gt;&lt;br&gt;
+将远程仓库设置为 &lt;code&gt;origin&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;查看远程仓库&#34;&gt;查看远程仓库
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git remote -v&lt;/code&gt;&lt;br&gt;
+查看当前配置的远程仓库地址。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;推送代码到远程仓库&#34;&gt;推送代码到远程仓库
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git push origin &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+将本地分支推送到远程仓库。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git push origin --all&lt;/code&gt;&lt;br&gt;
+将所有本地分支推送到远程。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git push origin --tags&lt;/code&gt;&lt;br&gt;
+推送所有标签到远程仓库。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;拉取远程仓库更新&#34;&gt;拉取远程仓库更新
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git pull origin &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+从远程仓库拉取最新的更改并与当前分支合并。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git fetch origin&lt;/code&gt;&lt;br&gt;
+获取远程仓库的最新更改，但不与本地合并。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-合并和冲突处理&#34;&gt;4. &lt;strong&gt;合并和冲突处理&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;合并分支&#34;&gt;合并分支
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git merge &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+将指定分支合并到当前分支。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;解决合并冲突&#34;&gt;解决合并冲突
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;手动编辑冲突文件后，执行以下命令：
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git add &amp;lt;conflicted-file&amp;gt;&lt;/code&gt;&lt;br&gt;
+标记冲突文件已解决。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git commit&lt;/code&gt;&lt;br&gt;
+提交合并后的更改。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;放弃合并&#34;&gt;放弃合并
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git merge --abort&lt;/code&gt;&lt;br&gt;
+取消当前的合并操作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-日志与历史记录&#34;&gt;5. &lt;strong&gt;日志与历史记录&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;查看提交历史&#34;&gt;查看提交历史
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git log&lt;/code&gt;&lt;br&gt;
+查看提交历史记录。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git log --oneline&lt;/code&gt;&lt;br&gt;
+压缩格式显示提交历史（每次提交一行）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git log --graph&lt;/code&gt;&lt;br&gt;
+以图形方式显示分支和提交历史。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;查看某个文件的修改历史&#34;&gt;查看某个文件的修改历史
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git log -p &amp;lt;file&amp;gt;&lt;/code&gt;&lt;br&gt;
+查看某个文件的详细修改历史。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6-撤销操作&#34;&gt;6. &lt;strong&gt;撤销操作&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;撤销修改&#34;&gt;撤销修改
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git checkout -- &amp;lt;file&amp;gt;&lt;/code&gt;&lt;br&gt;
+丢弃某个文件的本地修改，恢复到最近一次提交的状态。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;重置暂存区&#34;&gt;重置暂存区
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git reset HEAD &amp;lt;file&amp;gt;&lt;/code&gt;&lt;br&gt;
+将文件从暂存区移除，但保留文件的修改。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;回滚到某次提交&#34;&gt;回滚到某次提交
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git reset --hard &amp;lt;commit-hash&amp;gt;&lt;/code&gt;&lt;br&gt;
+将仓库回滚到指定的提交，并删除之后的所有更改。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git reset --soft &amp;lt;commit-hash&amp;gt;&lt;/code&gt;&lt;br&gt;
+回滚到指定的提交，但保留之后的改动，放入暂存区。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;7-标签管理&#34;&gt;7. &lt;strong&gt;标签管理&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;创建标签&#34;&gt;创建标签
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git tag &amp;lt;tag-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+创建一个轻量标签。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git tag -a &amp;lt;tag-name&amp;gt; -m &amp;quot;message&amp;quot;&lt;/code&gt;&lt;br&gt;
+创建一个带注解的标签。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;查看标签&#34;&gt;查看标签
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git tag&lt;/code&gt;&lt;br&gt;
+列出所有标签。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;推送标签&#34;&gt;推送标签
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git push origin &amp;lt;tag-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+将某个标签推送到远程仓库。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git push origin --tags&lt;/code&gt;&lt;br&gt;
+将所有标签推送到远程仓库。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;删除标签&#34;&gt;删除标签
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git tag -d &amp;lt;tag-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+删除本地标签。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git push origin :refs/tags/&amp;lt;tag-name&amp;gt;&lt;/code&gt;&lt;br&gt;
+删除远程仓库中的标签。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;8-github-相关命令&#34;&gt;8. &lt;strong&gt;GitHub 相关命令&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;fork-仓库&#34;&gt;Fork 仓库
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;GitHub 上可以通过点击 &lt;code&gt;Fork&lt;/code&gt; 按钮来复制别人的项目到自己的仓库。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;克隆-fork-仓库&#34;&gt;克隆 Fork 仓库
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git clone https://github.com/&amp;lt;your-username&amp;gt;/&amp;lt;forked-repository&amp;gt;&lt;/code&gt;&lt;br&gt;
+将 Fork 的仓库克隆到本地。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;拉取原始仓库的更新&#34;&gt;拉取原始仓库的更新
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git remote add upstream &amp;lt;original-repo-url&amp;gt;&lt;/code&gt;&lt;br&gt;
+添加原始仓库为 &lt;code&gt;upstream&lt;/code&gt; 远程仓库。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git fetch upstream&lt;/code&gt;&lt;br&gt;
+拉取原始仓库的更新。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git merge upstream/main&lt;/code&gt;&lt;br&gt;
+将原始仓库的更改合并到本地。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;创建-pull-request&#34;&gt;创建 Pull Request
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;通常在 GitHub 界面上点击 &lt;code&gt;New Pull Request&lt;/code&gt; 来提交更改请求。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;9-stash-储藏&#34;&gt;9. &lt;strong&gt;Stash (储藏)&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;储藏未提交的更改&#34;&gt;储藏未提交的更改
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git stash&lt;/code&gt;&lt;br&gt;
+储藏当前未提交的更改。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git stash list&lt;/code&gt;&lt;br&gt;
+查看储藏的更改列表。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git stash apply&lt;/code&gt;&lt;br&gt;
+应用最近的储藏。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git stash pop&lt;/code&gt;&lt;br&gt;
+应用最近的储藏并从储藏列表中移除。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;10-其他有用命令&#34;&gt;10. &lt;strong&gt;其他有用命令&lt;/strong&gt;
+&lt;/h3&gt;&lt;h4 id=&#34;显示远程仓库-url&#34;&gt;显示远程仓库 URL
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git remote show origin&lt;/code&gt;&lt;br&gt;
+显示远程仓库详细信息，包括 URL 和当前跟踪的分支。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;比较差异&#34;&gt;比较差异
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git diff&lt;/code&gt;&lt;br&gt;
+显示未暂存的改动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git diff --staged&lt;/code&gt;&lt;br&gt;
+显示已暂存但未提交的改动。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;以上命令涵盖了大部分日常开发中与 Git 和 GitHub 相关的操作。希望这些命令能帮助你更好地管理代码和项目。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>TypeScript使用简易流程</title>
-        <link>http://localhost:1313/p/typescript%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%93%E6%B5%81%E7%A8%8B/</link>
+        <link>http://localhost:1313/actions-test/p/typescript%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%93%E6%B5%81%E7%A8%8B/</link>
         <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/typescript%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%93%E6%B5%81%E7%A8%8B/</guid>
+        <guid>http://localhost:1313/actions-test/p/typescript%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%93%E6%B5%81%E7%A8%8B/</guid>
         <description>&lt;p&gt;TypeScript是什么呢？
 TypeScript用来约束js在某些方面太动态了，比如变量没有类型。TS 以JS为基础构建的语言，TS扩展了JavaScript并添加了类型，TS不能被JS解析器直接执行，需要TS-&amp;gt;编译-&amp;gt;JS；&lt;/p&gt;
 &lt;p&gt;安装TypeScript 搭建TypeScript开发坏境
@@ -1490,10 +1793,10 @@ setter方法用来设置属性&lt;/p&gt;
         </item>
         <item>
         <title>Hugo Stack Quick Start</title>
-        <link>http://localhost:1313/p/hugo-stack-quick-start/</link>
+        <link>http://localhost:1313/actions-test/p/hugo-stack-quick-start/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/hugo-stack-quick-start/</guid>
+        <guid>http://localhost:1313/actions-test/p/hugo-stack-quick-start/</guid>
         <description>&lt;p&gt;记录搭建Hugo 博客，使用stack主题快速启动部署
 记录搭建Hugo 博客，使用stack主题快速启动部署&lt;/p&gt;
 &lt;p&gt;选择Hugo
@@ -1565,37 +1868,37 @@ GitHub的访问貌似有一点慢，后面考虑部署到CDN上面吧，静态�
         </item>
         <item>
         <title>NodeJs</title>
-        <link>http://localhost:1313/p/nodejs/</link>
+        <link>http://localhost:1313/actions-test/p/nodejs/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/nodejs/</guid>
+        <guid>http://localhost:1313/actions-test/p/nodejs/</guid>
         <description>&lt;p&gt;这里写关于nodejs的学习&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>React</title>
-        <link>http://localhost:1313/p/react/</link>
+        <link>http://localhost:1313/actions-test/p/react/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/react/</guid>
+        <guid>http://localhost:1313/actions-test/p/react/</guid>
         <description>&lt;p&gt;这里写关于React的学习&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Spring</title>
-        <link>http://localhost:1313/p/spring/</link>
+        <link>http://localhost:1313/actions-test/p/spring/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/spring/</guid>
+        <guid>http://localhost:1313/actions-test/p/spring/</guid>
         <description>&lt;p&gt;这里写关于Spring的学习&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Uniapp 开发篇</title>
-        <link>http://localhost:1313/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</link>
+        <link>http://localhost:1313/actions-test/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</guid>
+        <guid>http://localhost:1313/actions-test/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</guid>
         <description>&lt;img src="https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/uni-app.png" alt="Featured image of post Uniapp 开发篇" /&gt;&lt;p&gt;目录&lt;/p&gt;
 &lt;h3 id=&#34;一介绍&#34;&gt;一、介绍
 &lt;/h3&gt;&lt;h3 id=&#34;二环境搭建hello-world&#34;&gt;二、环境搭建（hello world）
@@ -2091,10 +2394,10 @@ type	String	文件类型，仅H5支持&lt;/p&gt;
         </item>
         <item>
         <title>Markdown Syntax Guide</title>
-        <link>http://localhost:1313/p/markdown-syntax-guide/</link>
+        <link>http://localhost:1313/actions-test/p/markdown-syntax-guide/</link>
         <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/markdown-syntax-guide/</guid>
+        <guid>http://localhost:1313/actions-test/p/markdown-syntax-guide/</guid>
         <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings
 &lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
@@ -2291,11 +2594,11 @@ type	String	文件类型，仅H5支持&lt;/p&gt;
         </item>
         <item>
         <title>Image gallery</title>
-        <link>http://localhost:1313/p/image-gallery/</link>
+        <link>http://localhost:1313/actions-test/p/image-gallery/</link>
         <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/image-gallery/</guid>
-        <description>&lt;img src="http://localhost:1313/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" /&gt;&lt;p&gt;Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class=&#34;link&#34; href=&#34;https://photoswipe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/actions-test/p/image-gallery/</guid>
+        <description>&lt;img src="http://localhost:1313/actions-test/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" /&gt;&lt;p&gt;Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class=&#34;link&#34; href=&#34;https://photoswipe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;PhotoSwipe&lt;/a&gt; and its syntax was inspired by &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Typlog&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To use this feature, the image must be in the same directory as the Markdown file, as it uses Hugo&amp;rsquo;s page bundle feature to read the dimensions of the image. &lt;strong&gt;External images are not supported.&lt;/strong&gt;&lt;/p&gt;
@@ -2309,10 +2612,10 @@ type	String	文件类型，仅H5支持&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;result&#34;&gt;Result
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/image-gallery/1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/actions-test/actions-test/p/image-gallery/1.jpg&#34;
 	width=&#34;2000&#34;
 	height=&#34;1400&#34;
-	srcset=&#34;http://localhost:1313/p/image-gallery/1_hu4574578169203714971.jpg 480w, http://localhost:1313/p/image-gallery/1_hu9042511268598201431.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/actions-test/actions-test/p/image-gallery/1_hu4574578169203714971.jpg 480w, http://localhost:1313/actions-test/actions-test/p/image-gallery/1_hu9042511268598201431.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Image 1&#34;
@@ -2322,10 +2625,10 @@ type	String	文件类型，仅H5支持&lt;/p&gt;
 		data-flex-grow=&#34;142&#34;
 		data-flex-basis=&#34;342px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:1313/p/image-gallery/2.jpg&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/actions-test/actions-test/p/image-gallery/2.jpg&#34;
 	width=&#34;1500&#34;
 	height=&#34;2250&#34;
-	srcset=&#34;http://localhost:1313/p/image-gallery/2_hu10699635480308914167.jpg 480w, http://localhost:1313/p/image-gallery/2_hu1741040415904021193.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/actions-test/actions-test/p/image-gallery/2_hu10699635480308914167.jpg 480w, http://localhost:1313/actions-test/actions-test/p/image-gallery/2_hu1741040415904021193.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Image 2&#34;
@@ -2346,11 +2649,11 @@ type	String	文件类型，仅H5支持&lt;/p&gt;
         </item>
         <item>
         <title>Shortcodes</title>
-        <link>http://localhost:1313/p/shortcodes/</link>
+        <link>http://localhost:1313/actions-test/p/shortcodes/</link>
         <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/shortcodes/</guid>
-        <description>&lt;img src="http://localhost:1313/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;p&gt;For more details, check out the &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/writing/shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/actions-test/p/shortcodes/</guid>
+        <description>&lt;img src="http://localhost:1313/actions-test/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;p&gt;For more details, check out the &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/writing/shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;documentation&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;bilibili-video&#34;&gt;Bilibili video
 &lt;/h2&gt;
@@ -2429,10 +2732,10 @@ type	String	文件类型，仅H5支持&lt;/p&gt;
         </item>
         <item>
         <title>Math Typesetting</title>
-        <link>http://localhost:1313/p/math-typesetting/</link>
+        <link>http://localhost:1313/actions-test/p/math-typesetting/</link>
         <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/math-typesetting/</guid>
+        <guid>http://localhost:1313/actions-test/p/math-typesetting/</guid>
         <description>&lt;p&gt;Stack has built-in support for math typesetting using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;KaTeX&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;It&amp;rsquo;s not enabled by default side-wide,&lt;/strong&gt; but you can enable it for individual posts by adding &lt;code&gt;math: true&lt;/code&gt; to the front matter. Or you can enable it side-wide by adding &lt;code&gt;math = true&lt;/code&gt; to the &lt;code&gt;params.article&lt;/code&gt; section in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
@@ -2479,27 +2782,27 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>http://localhost:1313/actions-test/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>http://localhost:1313/actions-test/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Document</title>
-        <link>http://localhost:1313/document/</link>
+        <link>http://localhost:1313/actions-test/document/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/document/</guid>
+        <guid>http://localhost:1313/actions-test/document/</guid>
         <description>&lt;p&gt;这里还没有内容&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Links</title>
-        <link>http://localhost:1313/links/</link>
+        <link>http://localhost:1313/actions-test/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>http://localhost:1313/actions-test/links/</guid>
         <description>&lt;p&gt;友情链接&lt;/p&gt;
 &lt;!-- ```yaml
 links:
@@ -2517,10 +2820,10 @@ links:
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/search/</link>
+        <link>http://localhost:1313/actions-test/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>http://localhost:1313/actions-test/search/</guid>
         <description></description>
         </item>
         

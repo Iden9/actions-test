@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Multi-Platform on 我的博客</title>
-        <link>http://localhost:1313/tags/multi-platform/</link>
+        <link>http://localhost:1313/actions-test/tags/multi-platform/</link>
         <description>Recent content in Multi-Platform on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/multi-platform/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/actions-test/tags/multi-platform/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Uniapp 开发篇</title>
-        <link>http://localhost:1313/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</link>
+        <link>http://localhost:1313/actions-test/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</guid>
+        <guid>http://localhost:1313/actions-test/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</guid>
         <description>&lt;img src="https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/uni-app.png" alt="Featured image of post Uniapp 开发篇" /&gt;&lt;p&gt;目录&lt;/p&gt;
 &lt;h3 id=&#34;一介绍&#34;&gt;一、介绍
 &lt;/h3&gt;&lt;h3 id=&#34;二环境搭建hello-world&#34;&gt;二、环境搭建（hello world）

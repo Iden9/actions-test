@@ -1,6 +1,7 @@
 ---
 title: "Git Operate"
 date: 2024-10-04 
+image: gitlogo.jpeg
 ---
 
 以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。

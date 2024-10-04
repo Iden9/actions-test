@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/actions-test/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=actions-test/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。\n1. 基础 Git 操作 初始化仓库和克隆仓库 git init\n初始化一个新的 Git 仓库。\ngit clone &lt;repository-url&gt;\n克隆远程仓库到本地。\n查看状态 git status\n查看当前工作区状态（文件是否被修改、是否在暂存区等）。 添加文件到暂存区 git add &lt;file&gt;\n将文件添加到暂存区。\ngit add .\n将所有改动的文件添加到暂存区。\n提交改动 git commit -m &quot;message&quot;\n提交暂存区中的更改到本地仓库，并添加提交信息。\ngit commit --amend\n修改最近一次提交的信息或内容（不建议在已经推送的分支上使用）。\n2. 分支管理 创建和切换分支 git branch &lt;branch-name&gt;\n创建一个新的分支。\ngit checkout &lt;branch-name&gt;\n切换到指定分支。\ngit checkout -b &lt;branch-name&gt;\n创建并切换到一个新分支。\n查看分支 git branch\n列出本地分支。\n">
+<title>Git Operate</title>
+
+<link rel='canonical' href='http://localhost:1313/actions-test/p/git-operate/'>
+
+<link rel="stylesheet" href="/actions-test/scss/style.min.b5b39ef3c302121ca9a939f74d36fee47f708443e833f8934e00855acf42feb0.css"><meta property='og:title' content="Git Operate">
+<meta property='og:description' content="以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。\n1. 基础 Git 操作 初始化仓库和克隆仓库 git init\n初始化一个新的 Git 仓库。\ngit clone &lt;repository-url&gt;\n克隆远程仓库到本地。\n查看状态 git status\n查看当前工作区状态（文件是否被修改、是否在暂存区等）。 添加文件到暂存区 git add &lt;file&gt;\n将文件添加到暂存区。\ngit add .\n将所有改动的文件添加到暂存区。\n提交改动 git commit -m &quot;message&quot;\n提交暂存区中的更改到本地仓库，并添加提交信息。\ngit commit --amend\n修改最近一次提交的信息或内容（不建议在已经推送的分支上使用）。\n2. 分支管理 创建和切换分支 git branch &lt;branch-name&gt;\n创建一个新的分支。\ngit checkout &lt;branch-name&gt;\n切换到指定分支。\ngit checkout -b &lt;branch-name&gt;\n创建并切换到一个新分支。\n查看分支 git branch\n列出本地分支。\n">
+<meta property='og:url' content='http://localhost:1313/actions-test/p/git-operate/'>
+<meta property='og:site_name' content='我的博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-04T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/actions-test/p/git-operate/gitlogo.jpeg' />
+<meta name="twitter:title" content="Git Operate">
+<meta name="twitter:description" content="以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。\n1. 基础 Git 操作 初始化仓库和克隆仓库 git init\n初始化一个新的 Git 仓库。\ngit clone &lt;repository-url&gt;\n克隆远程仓库到本地。\n查看状态 git status\n查看当前工作区状态（文件是否被修改、是否在暂存区等）。 添加文件到暂存区 git add &lt;file&gt;\n将文件添加到暂存区。\ngit add .\n将所有改动的文件添加到暂存区。\n提交改动 git commit -m &quot;message&quot;\n提交暂存区中的更改到本地仓库，并添加提交信息。\ngit commit --amend\n修改最近一次提交的信息或内容（不建议在已经推送的分支上使用）。\n2. 分支管理 创建和切换分支 git branch &lt;branch-name&gt;\n创建一个新的分支。\ngit checkout &lt;branch-name&gt;\n切换到指定分支。\ngit checkout -b &lt;branch-name&gt;\n创建并切换到一个新分支。\n查看分支 git branch\n列出本地分支。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/actions-test/p/git-operate/gitlogo.jpeg' />
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/102173622?v=4" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/actions-test/">
+                
+                    <img src="https://avatars.githubusercontent.com/u/102173622?v=4" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/actions-test">我的博客</a></h1>
+            <h2 class="site-description">简单介绍</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://www.bilibili.com/'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-bilibili" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" />
+  <path d="M8 3l2 3" />
+  <path d="M16 3l-2 3" />
+  <path d="M9 13v-2" />
+  <path d="M15 11v2" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.douyin.com/'
+                        target="_blank"
+                        title="Tiktok"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/actions-test/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/actions-test/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/actions-test/document/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard-text" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+  <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+  <path d="M9 12h6" />
+  <path d="M9 16h6" />
+</svg>
+                
+                <span>Document</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/actions-test/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/actions-test/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#1-基础-git-操作">1. <strong>基础 Git 操作</strong></a>
+          <ol>
+            <li><a href="#初始化仓库和克隆仓库">初始化仓库和克隆仓库</a></li>
+            <li><a href="#查看状态">查看状态</a></li>
+            <li><a href="#添加文件到暂存区">添加文件到暂存区</a></li>
+            <li><a href="#提交改动">提交改动</a></li>
+          </ol>
+        </li>
+        <li><a href="#2-分支管理">2. <strong>分支管理</strong></a>
+          <ol>
+            <li><a href="#创建和切换分支">创建和切换分支</a></li>
+            <li><a href="#查看分支">查看分支</a></li>
+            <li><a href="#删除分支">删除分支</a></li>
+          </ol>
+        </li>
+        <li><a href="#3-远程仓库操作">3. <strong>远程仓库操作</strong></a>
+          <ol>
+            <li><a href="#添加远程仓库">添加远程仓库</a></li>
+            <li><a href="#查看远程仓库">查看远程仓库</a></li>
+            <li><a href="#推送代码到远程仓库">推送代码到远程仓库</a></li>
+            <li><a href="#拉取远程仓库更新">拉取远程仓库更新</a></li>
+          </ol>
+        </li>
+        <li><a href="#4-合并和冲突处理">4. <strong>合并和冲突处理</strong></a>
+          <ol>
+            <li><a href="#合并分支">合并分支</a></li>
+            <li><a href="#解决合并冲突">解决合并冲突</a></li>
+            <li><a href="#放弃合并">放弃合并</a></li>
+          </ol>
+        </li>
+        <li><a href="#5-日志与历史记录">5. <strong>日志与历史记录</strong></a>
+          <ol>
+            <li><a href="#查看提交历史">查看提交历史</a></li>
+            <li><a href="#查看某个文件的修改历史">查看某个文件的修改历史</a></li>
+          </ol>
+        </li>
+        <li><a href="#6-撤销操作">6. <strong>撤销操作</strong></a>
+          <ol>
+            <li><a href="#撤销修改">撤销修改</a></li>
+            <li><a href="#重置暂存区">重置暂存区</a></li>
+            <li><a href="#回滚到某次提交">回滚到某次提交</a></li>
+          </ol>
+        </li>
+        <li><a href="#7-标签管理">7. <strong>标签管理</strong></a>
+          <ol>
+            <li><a href="#创建标签">创建标签</a></li>
+            <li><a href="#查看标签">查看标签</a></li>
+            <li><a href="#推送标签">推送标签</a></li>
+            <li><a href="#删除标签">删除标签</a></li>
+          </ol>
+        </li>
+        <li><a href="#8-github-相关命令">8. <strong>GitHub 相关命令</strong></a>
+          <ol>
+            <li><a href="#fork-仓库">Fork 仓库</a></li>
+            <li><a href="#克隆-fork-仓库">克隆 Fork 仓库</a></li>
+            <li><a href="#拉取原始仓库的更新">拉取原始仓库的更新</a></li>
+            <li><a href="#创建-pull-request">创建 Pull Request</a></li>
+          </ol>
+        </li>
+        <li><a href="#9-stash-储藏">9. <strong>Stash (储藏)</strong></a>
+          <ol>
+            <li><a href="#储藏未提交的更改">储藏未提交的更改</a></li>
+          </ol>
+        </li>
+        <li><a href="#10-其他有用命令">10. <strong>其他有用命令</strong></a>
+          <ol>
+            <li><a href="#显示远程仓库-url">显示远程仓库 URL</a></li>
+            <li><a href="#比较差异">比较差异</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/actions-test/p/git-operate/">
+                <img src="/actions-test/p/git-operate/gitlogo_hu11073596064133761747.jpeg"
+                        srcset="/actions-test/p/git-operate/gitlogo_hu11073596064133761747.jpeg 800w, /actions-test/p/git-operate/gitlogo_hu17399436160099773972.jpeg 1600w"
+                        width="800" 
+                        height="499" 
+                        loading="lazy"
+                        alt="Featured image of post Git Operate" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/actions-test/p/git-operate/">Git Operate</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 04, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    2 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。</p>
+<h3 id="1-基础-git-操作">1. <strong>基础 Git 操作</strong>
+</h3><h4 id="初始化仓库和克隆仓库">初始化仓库和克隆仓库
+</h4><ul>
+<li>
+<p><code>git init</code><br>
+初始化一个新的 Git 仓库。</p>
+</li>
+<li>
+<p><code>git clone &lt;repository-url&gt;</code><br>
+克隆远程仓库到本地。</p>
+</li>
+</ul>
+<h4 id="查看状态">查看状态
+</h4><ul>
+<li><code>git status</code><br>
+查看当前工作区状态（文件是否被修改、是否在暂存区等）。</li>
+</ul>
+<h4 id="添加文件到暂存区">添加文件到暂存区
+</h4><ul>
+<li>
+<p><code>git add &lt;file&gt;</code><br>
+将文件添加到暂存区。</p>
+</li>
+<li>
+<p><code>git add .</code><br>
+将所有改动的文件添加到暂存区。</p>
+</li>
+</ul>
+<h4 id="提交改动">提交改动
+</h4><ul>
+<li>
+<p><code>git commit -m &quot;message&quot;</code><br>
+提交暂存区中的更改到本地仓库，并添加提交信息。</p>
+</li>
+<li>
+<p><code>git commit --amend</code><br>
+修改最近一次提交的信息或内容（不建议在已经推送的分支上使用）。</p>
+</li>
+</ul>
+<h3 id="2-分支管理">2. <strong>分支管理</strong>
+</h3><h4 id="创建和切换分支">创建和切换分支
+</h4><ul>
+<li>
+<p><code>git branch &lt;branch-name&gt;</code><br>
+创建一个新的分支。</p>
+</li>
+<li>
+<p><code>git checkout &lt;branch-name&gt;</code><br>
+切换到指定分支。</p>
+</li>
+<li>
+<p><code>git checkout -b &lt;branch-name&gt;</code><br>
+创建并切换到一个新分支。</p>
+</li>
+</ul>
+<h4 id="查看分支">查看分支
+</h4><ul>
+<li>
+<p><code>git branch</code><br>
+列出本地分支。</p>
+</li>
+<li>
+<p><code>git branch -r</code><br>
+列出远程分支。</p>
+</li>
+<li>
+<p><code>git branch -a</code><br>
+列出所有分支（本地和远程）。</p>
+</li>
+</ul>
+<h4 id="删除分支">删除分支
+</h4><ul>
+<li>
+<p><code>git branch -d &lt;branch-name&gt;</code><br>
+删除本地分支（分支必须已被合并）。</p>
+</li>
+<li>
+<p><code>git branch -D &lt;branch-name&gt;</code><br>
+强制删除本地分支（即使未合并）。</p>
+</li>
+</ul>
+<h3 id="3-远程仓库操作">3. <strong>远程仓库操作</strong>
+</h3><h4 id="添加远程仓库">添加远程仓库
+</h4><ul>
+<li><code>git remote add origin &lt;repository-url&gt;</code><br>
+将远程仓库设置为 <code>origin</code>。</li>
+</ul>
+<h4 id="查看远程仓库">查看远程仓库
+</h4><ul>
+<li><code>git remote -v</code><br>
+查看当前配置的远程仓库地址。</li>
+</ul>
+<h4 id="推送代码到远程仓库">推送代码到远程仓库
+</h4><ul>
+<li>
+<p><code>git push origin &lt;branch-name&gt;</code><br>
+将本地分支推送到远程仓库。</p>
+</li>
+<li>
+<p><code>git push origin --all</code><br>
+将所有本地分支推送到远程。</p>
+</li>
+<li>
+<p><code>git push origin --tags</code><br>
+推送所有标签到远程仓库。</p>
+</li>
+</ul>
+<h4 id="拉取远程仓库更新">拉取远程仓库更新
+</h4><ul>
+<li>
+<p><code>git pull origin &lt;branch-name&gt;</code><br>
+从远程仓库拉取最新的更改并与当前分支合并。</p>
+</li>
+<li>
+<p><code>git fetch origin</code><br>
+获取远程仓库的最新更改，但不与本地合并。</p>
+</li>
+</ul>
+<h3 id="4-合并和冲突处理">4. <strong>合并和冲突处理</strong>
+</h3><h4 id="合并分支">合并分支
+</h4><ul>
+<li><code>git merge &lt;branch-name&gt;</code><br>
+将指定分支合并到当前分支。</li>
+</ul>
+<h4 id="解决合并冲突">解决合并冲突
+</h4><ul>
+<li>手动编辑冲突文件后，执行以下命令：
+<ul>
+<li>
+<p><code>git add &lt;conflicted-file&gt;</code><br>
+标记冲突文件已解决。</p>
+</li>
+<li>
+<p><code>git commit</code><br>
+提交合并后的更改。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="放弃合并">放弃合并
+</h4><ul>
+<li><code>git merge --abort</code><br>
+取消当前的合并操作。</li>
+</ul>
+<h3 id="5-日志与历史记录">5. <strong>日志与历史记录</strong>
+</h3><h4 id="查看提交历史">查看提交历史
+</h4><ul>
+<li>
+<p><code>git log</code><br>
+查看提交历史记录。</p>
+</li>
+<li>
+<p><code>git log --oneline</code><br>
+压缩格式显示提交历史（每次提交一行）。</p>
+</li>
+<li>
+<p><code>git log --graph</code><br>
+以图形方式显示分支和提交历史。</p>
+</li>
+</ul>
+<h4 id="查看某个文件的修改历史">查看某个文件的修改历史
+</h4><ul>
+<li><code>git log -p &lt;file&gt;</code><br>
+查看某个文件的详细修改历史。</li>
+</ul>
+<h3 id="6-撤销操作">6. <strong>撤销操作</strong>
+</h3><h4 id="撤销修改">撤销修改
+</h4><ul>
+<li><code>git checkout -- &lt;file&gt;</code><br>
+丢弃某个文件的本地修改，恢复到最近一次提交的状态。</li>
+</ul>
+<h4 id="重置暂存区">重置暂存区
+</h4><ul>
+<li><code>git reset HEAD &lt;file&gt;</code><br>
+将文件从暂存区移除，但保留文件的修改。</li>
+</ul>
+<h4 id="回滚到某次提交">回滚到某次提交
+</h4><ul>
+<li>
+<p><code>git reset --hard &lt;commit-hash&gt;</code><br>
+将仓库回滚到指定的提交，并删除之后的所有更改。</p>
+</li>
+<li>
+<p><code>git reset --soft &lt;commit-hash&gt;</code><br>
+回滚到指定的提交，但保留之后的改动，放入暂存区。</p>
+</li>
+</ul>
+<h3 id="7-标签管理">7. <strong>标签管理</strong>
+</h3><h4 id="创建标签">创建标签
+</h4><ul>
+<li>
+<p><code>git tag &lt;tag-name&gt;</code><br>
+创建一个轻量标签。</p>
+</li>
+<li>
+<p><code>git tag -a &lt;tag-name&gt; -m &quot;message&quot;</code><br>
+创建一个带注解的标签。</p>
+</li>
+</ul>
+<h4 id="查看标签">查看标签
+</h4><ul>
+<li><code>git tag</code><br>
+列出所有标签。</li>
+</ul>
+<h4 id="推送标签">推送标签
+</h4><ul>
+<li>
+<p><code>git push origin &lt;tag-name&gt;</code><br>
+将某个标签推送到远程仓库。</p>
+</li>
+<li>
+<p><code>git push origin --tags</code><br>
+将所有标签推送到远程仓库。</p>
+</li>
+</ul>
+<h4 id="删除标签">删除标签
+</h4><ul>
+<li>
+<p><code>git tag -d &lt;tag-name&gt;</code><br>
+删除本地标签。</p>
+</li>
+<li>
+<p><code>git push origin :refs/tags/&lt;tag-name&gt;</code><br>
+删除远程仓库中的标签。</p>
+</li>
+</ul>
+<h3 id="8-github-相关命令">8. <strong>GitHub 相关命令</strong>
+</h3><h4 id="fork-仓库">Fork 仓库
+</h4><ul>
+<li>GitHub 上可以通过点击 <code>Fork</code> 按钮来复制别人的项目到自己的仓库。</li>
+</ul>
+<h4 id="克隆-fork-仓库">克隆 Fork 仓库
+</h4><ul>
+<li><code>git clone https://github.com/&lt;your-username&gt;/&lt;forked-repository&gt;</code><br>
+将 Fork 的仓库克隆到本地。</li>
+</ul>
+<h4 id="拉取原始仓库的更新">拉取原始仓库的更新
+</h4><ul>
+<li>
+<p><code>git remote add upstream &lt;original-repo-url&gt;</code><br>
+添加原始仓库为 <code>upstream</code> 远程仓库。</p>
+</li>
+<li>
+<p><code>git fetch upstream</code><br>
+拉取原始仓库的更新。</p>
+</li>
+<li>
+<p><code>git merge upstream/main</code><br>
+将原始仓库的更改合并到本地。</p>
+</li>
+</ul>
+<h4 id="创建-pull-request">创建 Pull Request
+</h4><ul>
+<li>通常在 GitHub 界面上点击 <code>New Pull Request</code> 来提交更改请求。</li>
+</ul>
+<h3 id="9-stash-储藏">9. <strong>Stash (储藏)</strong>
+</h3><h4 id="储藏未提交的更改">储藏未提交的更改
+</h4><ul>
+<li>
+<p><code>git stash</code><br>
+储藏当前未提交的更改。</p>
+</li>
+<li>
+<p><code>git stash list</code><br>
+查看储藏的更改列表。</p>
+</li>
+<li>
+<p><code>git stash apply</code><br>
+应用最近的储藏。</p>
+</li>
+<li>
+<p><code>git stash pop</code><br>
+应用最近的储藏并从储藏列表中移除。</p>
+</li>
+</ul>
+<h3 id="10-其他有用命令">10. <strong>其他有用命令</strong>
+</h3><h4 id="显示远程仓库-url">显示远程仓库 URL
+</h4><ul>
+<li><code>git remote show origin</code><br>
+显示远程仓库详细信息，包括 URL 和当前跟踪的分支。</li>
+</ul>
+<h4 id="比较差异">比较差异
+</h4><ul>
+<li>
+<p><code>git diff</code><br>
+显示未暂存的改动。</p>
+</li>
+<li>
+<p><code>git diff --staged</code><br>
+显示已暂存但未提交的改动。</p>
+</li>
+</ul>
+<hr>
+<p>以上命令涵盖了大部分日常开发中与 Git 和 GitHub 相关的操作。希望这些命令能帮助你更好地管理代码和项目。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>daixun</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 我的博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/actions-test/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

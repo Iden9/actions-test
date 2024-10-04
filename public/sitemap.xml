@@ -2,128 +2,131 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/p/hugostack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</loc>
+    <loc>http://localhost:1313/actions-test/p/hugostack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/</loc>
+    <loc>http://localhost:1313/actions-test/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/hello-world/</loc>
+    <loc>http://localhost:1313/actions-test/p/hello-world/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/actions-test/</loc>
+    <lastmod>2024-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/p/git-operate/</loc>
+    <lastmod>2024-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/post/</loc>
+    <lastmod>2024-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/p/typescript%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%93%E6%B5%81%E7%A8%8B/</loc>
     <lastmod>2024-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/typescript%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%93%E6%B5%81%E7%A8%8B/</loc>
-    <lastmod>2024-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/blog/</loc>
+    <loc>http://localhost:1313/actions-test/categories/blog/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/actions-test/categories/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>http://localhost:1313/actions-test/tags/hugo/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/hugo-stack-quick-start/</loc>
+    <loc>http://localhost:1313/actions-test/p/hugo-stack-quick-start/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/multi-platform/</loc>
+    <loc>http://localhost:1313/actions-test/tags/multi-platform/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nodejs/</loc>
+    <loc>http://localhost:1313/actions-test/tags/nodejs/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/nodejs/</loc>
+    <loc>http://localhost:1313/actions-test/p/nodejs/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
+    <loc>http://localhost:1313/actions-test/tags/react/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/react/</loc>
+    <loc>http://localhost:1313/actions-test/p/react/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/skill/</loc>
+    <loc>http://localhost:1313/actions-test/categories/skill/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/spring/</loc>
+    <loc>http://localhost:1313/actions-test/tags/spring/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/spring/</loc>
+    <loc>http://localhost:1313/actions-test/p/spring/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/actions-test/tags/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/theme/</loc>
+    <loc>http://localhost:1313/actions-test/tags/theme/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/uniapp/</loc>
+    <loc>http://localhost:1313/actions-test/tags/uniapp/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</loc>
+    <loc>http://localhost:1313/actions-test/p/uniapp-%E5%BC%80%E5%8F%91%E7%AF%87/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vue/</loc>
+    <loc>http://localhost:1313/actions-test/tags/vue/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/web/</loc>
+    <loc>http://localhost:1313/actions-test/categories/web/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E5%90%8E%E7%AB%AF/</loc>
+    <loc>http://localhost:1313/actions-test/categories/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>http://localhost:1313/actions-test/tags/css/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
+    <loc>http://localhost:1313/actions-test/tags/html/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>http://localhost:1313/actions-test/tags/markdown/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/markdown-syntax-guide/</loc>
+    <loc>http://localhost:1313/actions-test/p/markdown-syntax-guide/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/syntax/</loc>
+    <loc>http://localhost:1313/actions-test/categories/syntax/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
+    <loc>http://localhost:1313/actions-test/tags/themes/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/themes/</loc>
+    <loc>http://localhost:1313/actions-test/categories/themes/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/image-gallery/</loc>
+    <loc>http://localhost:1313/actions-test/p/image-gallery/</loc>
     <lastmod>2023-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/shortcodes/</loc>
+    <loc>http://localhost:1313/actions-test/p/shortcodes/</loc>
     <lastmod>2023-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/math-typesetting/</loc>
+    <loc>http://localhost:1313/actions-test/p/math-typesetting/</loc>
     <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>http://localhost:1313/actions-test/archives/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/document/</loc>
+    <loc>http://localhost:1313/actions-test/document/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/example-category/</loc>
+    <loc>http://localhost:1313/actions-test/categories/example-category/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/example-tag/</loc>
+    <loc>http://localhost:1313/actions-test/tags/example-tag/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>http://localhost:1313/actions-test/page/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>http://localhost:1313/actions-test/links/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost:1313/actions-test/search/</loc>
   </url>
 </urlset>
