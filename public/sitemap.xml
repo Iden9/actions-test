@@ -110,12 +110,6 @@
     <loc>http://localhost:1313/actions-test/p/math-typesetting/</loc>
     <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/actions-test/archives/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/actions-test/document/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/actions-test/categories/example-category/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -125,8 +119,14 @@
     <loc>http://localhost:1313/actions-test/page/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/actions-test/links/</loc>
+    <loc>http://localhost:1313/actions-test/page/archives/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/actions-test/search/</loc>
+    <loc>http://localhost:1313/actions-test/page/document/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/page/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/links/</loc>
   </url>
 </urlset>

@@ -5,7 +5,7 @@
         <link>http://localhost:1313/actions-test/tags/example-tag/</link>
         <description>Recent content in Example Tag on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>zh-cn</language>
         <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/actions-test/tags/example-tag/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hello World</title>
         <link>http://localhost:1313/actions-test/p/hello-world/</link>

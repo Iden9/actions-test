@@ -5,7 +5,7 @@
         <link>http://localhost:1313/actions-test/post/</link>
         <description>Recent content in Posts on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>zh-cn</language>
         <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/actions-test/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【Hugo】Stack主题的使用记录</title>
         <link>http://localhost:1313/actions-test/p/hugostack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
@@ -978,7 +978,7 @@ provider: waline&lt;/p&gt;
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/actions-test/p/git-operate/</guid>
-        <description>&lt;img src="http://localhost:1313/actions-test/gitlogo" alt="Featured image of post Git Operate" /&gt;&lt;p&gt;以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/actions-test/p/git-operate/gitlogo.jpeg" alt="Featured image of post Git Operate" /&gt;&lt;p&gt;以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。&lt;/p&gt;
 &lt;h3 id=&#34;1-基础-git-操作&#34;&gt;1. &lt;strong&gt;基础 Git 操作&lt;/strong&gt;
 &lt;/h3&gt;&lt;h4 id=&#34;初始化仓库和克隆仓库&#34;&gt;初始化仓库和克隆仓库
 &lt;/h4&gt;&lt;ul&gt;
