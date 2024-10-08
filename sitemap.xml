@@ -80,42 +80,6 @@
     <loc>https://iden9.github.io/actions-test/categories/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iden9.github.io/actions-test/tags/css/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/tags/html/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/tags/markdown/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/p/markdown-syntax-guide/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/categories/syntax/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/tags/themes/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/categories/themes/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/p/image-gallery/</loc>
-    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/p/shortcodes/</loc>
-    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/p/math-typesetting/</loc>
-    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/archives/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iden9.github.io/actions-test/document/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://iden9.github.io/actions-test/categories/example-category/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -125,8 +89,14 @@
     <loc>https://iden9.github.io/actions-test/page/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iden9.github.io/actions-test/links/</loc>
+    <loc>https://iden9.github.io/actions-test/page/archives/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iden9.github.io/actions-test/search/</loc>
+    <loc>https://iden9.github.io/actions-test/page/document/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iden9.github.io/actions-test/page/search/</loc>
+  </url><url>
+    <loc>https://iden9.github.io/actions-test/links/</loc>
   </url>
 </urlset>

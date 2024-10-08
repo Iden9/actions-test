@@ -5,7 +5,7 @@
         <link>https://iden9.github.io/actions-test/tags/</link>
         <description>Recent content in Tags on 我的博客</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>zh-cn</language>
         <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo</title>
         <link>https://iden9.github.io/actions-test/tags/hugo/</link>
@@ -68,38 +68,6 @@
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>https://iden9.github.io/actions-test/tags/vue/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Css</title>
-        <link>https://iden9.github.io/actions-test/tags/css/</link>
-        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://iden9.github.io/actions-test/tags/css/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Html</title>
-        <link>https://iden9.github.io/actions-test/tags/html/</link>
-        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://iden9.github.io/actions-test/tags/html/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Markdown</title>
-        <link>https://iden9.github.io/actions-test/tags/markdown/</link>
-        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://iden9.github.io/actions-test/tags/markdown/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Themes</title>
-        <link>https://iden9.github.io/actions-test/tags/themes/</link>
-        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://iden9.github.io/actions-test/tags/themes/</guid>
         <description></description>
         </item>
         <item>
