@@ -2,7 +2,8 @@
 baseurl = "https://iden9.github.io/actions-test/"
 # languageCode = "en-us"
 languageCode = "zh-cn"
-title = "我的博客"
+# 配置博客作者名
+title = "知道点代码"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
@@ -18,4 +19,4 @@ hasCJKLanguage = true
 disqusShortname = "hugo-theme-stack"
 
 [pagination]
-pagerSize = 5
+pagerSize = 10
