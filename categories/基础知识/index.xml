@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>基础知识 on 知道点代码</title>
+        <link>https://iden9.github.io/actions-test/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+        <description>Recent content in 基础知识 on 知道点代码</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 10 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>计算机基础知识</title>
+        <link>https://iden9.github.io/actions-test/p/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+        <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://iden9.github.io/actions-test/p/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+        <description>&lt;h2 id=&#34;计算机常识&#34;&gt;&lt;strong&gt;计算机常识&lt;/strong&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;什么是计算机?&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;顾名思义，就是能够进行数据运算的机器(台式电脑、笔记本电脑、平板电脑、智能手机)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA/140338?fr=aladdin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;计算机_百度百科&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;计算机的发明者是谁 ?&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关于电子计算机的发明者是谁这一问题，有好几种答案:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1936年&lt;strong&gt;英国数学家图灵&lt;/strong&gt;首先提出了一种以程序和输入数据相互作用产生输出的计算机&lt;strong&gt;构想&lt;/strong&gt;，后人将这种机器命名为通用图灵计算机&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1938年&lt;strong&gt;克兰德·楚泽&lt;/strong&gt;发明了首台采用&lt;strong&gt;继电器&lt;/strong&gt;进行工作的计算机,这台计算机命名为&lt;strong&gt;Z1&lt;/strong&gt;，但是继电器是机械式的，并不是完全的电子器材&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1942年&lt;strong&gt;阿坦那索夫和贝利&lt;/strong&gt;&lt;em&gt;发明了首台采用&lt;/em&gt;&lt;em&gt;真空管&lt;/em&gt;*的计算机，这台计算机命名为ABC&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1946年ENIAC诞生,它拥有了今天计算机的主要结构和功能，是通用计算机&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;现在世界上&lt;strong&gt;公认&lt;/strong&gt;的第一台现代电子计算机是1946年在美国宾夕法尼亚大学诞生的ENIAC(Electronic Numerical Integrator And Calculator)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;计算机特点是什么?&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;计算机是一种电器, 所以计算机只能识别两种状态, &lt;strong&gt;一种是通电一种是断电&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;正是因为如此, 最初ENIAC的程序是由很多开关和连接电线来完成的。但是这样导致&lt;strong&gt;改动一次程序要花很长时间&lt;/strong&gt;(需要人工重新设置很多开关的状态和连接线)
+&lt;img src=&#34;https://img-blog.csdnimg.cn/img_convert/aeb50f9711d635407201455d9875328d.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;为了提高效率,工程师们想能不能把程序和数据都放在存储器中, 数学家冯·诺依曼将这个思想以数学语言系统阐述，提出了存储程序计算机模型(这是所谓的冯·诺依曼机)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;那利用数学语言如何表示计算机能够识别的通电和断电两种状态呢?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;非常简单用0和1表示即可&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;所以计算机能识别的所有指令都是由0和1组成的&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;所以计算机中存储和操作的数据也都是由0和1组成的&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;0和1更准确的是应该是高电平和低电平, 但是这个不用了解, 只需要知道计算机只能识别0和1以及存储的数据都是由0和1组成的即可。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- 最后，如果大家想要实时关注我们更新的文章以及分享的干货的话，可以扫描下方二维码关注我们的微信公众号“**代码情缘**”。 --&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

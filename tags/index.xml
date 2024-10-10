@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on 我的博客</title>
+        <title>Tags on 知道点代码</title>
         <link>https://iden9.github.io/actions-test/tags/</link>
-        <description>Recent content in Tags on 我的博客</description>
+        <description>Recent content in Tags on 知道点代码</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/tags/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -68,14 +68,6 @@
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>https://iden9.github.io/actions-test/tags/vue/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Example Tag</title>
-        <link>https://iden9.github.io/actions-test/tags/example-tag/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://iden9.github.io/actions-test/tags/example-tag/</guid>
         <description></description>
         </item>
         
