@@ -1207,6 +1207,46 @@ provider: waline&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>流程控制基本概念</title>
+        <link>http://localhost:1313/actions-test/p/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</link>
+        <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/actions-test/p/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</guid>
+        <description>&lt;h2 id=&#34;流程控制基本概念&#34;&gt;流程控制基本概念
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;默认情况下程序运行后，系统会按书写顺序从上至下依次执行程序中的每一行代码。但是这并不能满足我们所有的开发需求, 为了方便我们控制程序的运行流程，C语言提供3种流程控制结构，不同的流程控制结构可以实现不同的运行流程。&lt;/li&gt;
+&lt;li&gt;这3种流程结构分别是顺序结构、选择结构、循环结构&lt;/li&gt;
+&lt;li&gt;顺序结构:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;按书写顺序从上至下依次执行
+&lt;img referrerpolicy=&#34;no-referrer&#34; src=&#34;https://img-blog.csdnimg.cn/img_convert/9071191723644a2b0364126c8a5bd65f.png&#34; alt=&#34;描述文本&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;选择结构&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;对给定的条件进行判断，再根据判断结果来决定执行代码
+&lt;img referrerpolicy=&#34;no-referrer&#34; src=&#34;https://img-blog.csdnimg.cn/img_convert/0e8b2f8b6230aedf754eab312605ce23.png&#34; alt=&#34;描述文本&#34;&gt;
+&lt;img referrerpolicy=&#34;no-referrer&#34; src=&#34;https://img-blog.csdnimg.cn/img_convert/e4452dcd9857466ecc0957fb4453b3a3.png&#34; alt=&#34;描述文本&#34;&gt;
+&lt;!-- ![](https://img-blog.csdnimg.cn/img_convert/0e8b2f8b6230aedf754eab312605ce23.png)
+![](https://img-blog.csdnimg.cn/img_convert/e4452dcd9857466ecc0957fb4453b3a3.png) --&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;循环结构&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;在给定条件成立的情况下，反复执行某一段代码
+&lt;img referrerpolicy=&#34;no-referrer&#34; src=&#34;https://img-blog.csdnimg.cn/img_convert/4899d440537583bc28f3bc17bd2b7ae1.png&#34; alt=&#34;描述文本&#34;&gt;
+&lt;img referrerpolicy=&#34;no-referrer&#34; src=&#34;https://img-blog.csdnimg.cn/img_convert/3f74e2788a1ccbaf1028b1360c514c70.png&#34; alt=&#34;描述文本&#34;&gt;
+&lt;!-- ![](https://img-blog.csdnimg.cn/img_convert/4899d440537583bc28f3bc17bd2b7ae1.png)
+![](https://img-blog.csdnimg.cn/img_convert/3f74e2788a1ccbaf1028b1360c514c70.png) --&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Git Operate</title>
         <link>http://localhost:1313/actions-test/p/git-operate/</link>
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
@@ -2115,7 +2155,7 @@ GitHub的访问貌似有一点慢，后面考虑部署到CDN上面吧，静态�
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/actions-test/p/react/</guid>
-        <description>&lt;p&gt;这里写关于React的学习&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/actions-test/p/react/react-pic.png" alt="Featured image of post React" /&gt;&lt;p&gt;这里写关于React的学习&lt;/p&gt;
 </description>
         </item>
         <item>

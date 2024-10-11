@@ -87,7 +87,7 @@ GitHub的访问貌似有一点慢，后面考虑部署到CDN上面吧，静态�
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/actions-test/p/react/</guid>
-        <description>&lt;p&gt;这里写关于React的学习&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/actions-test/p/react/react-pic.png" alt="Featured image of post React" /&gt;&lt;p&gt;这里写关于React的学习&lt;/p&gt;
 </description>
         </item>
         <item>

@@ -1,7 +1,7 @@
 ---
 title: 计算机基础知识
 date: 2024-10-10
-categories: 基础知识
+categories: ["基础知识"]
 ---
 ## **计算机常识**
 

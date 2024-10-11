@@ -16,6 +16,11 @@ links:
     description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
     website: https://www.typescriptlang.org
     image: https://miro.medium.com/v2/resize:fit:1358/1*moJeTvW97yShLB7URRj5Kg.png
+
+  - title: 彭存福天天压力我真该死，但是技术很可以
+    description: 该死
+    website: https://huaqiwill.github.io/huaqiwill-blog/
+    image: https://avatars.githubusercontent.com/u/79467414?v=4
   
 menu:
     main: 
