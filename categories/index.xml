@@ -6,7 +6,23 @@
         <description>Recent content in Categories on 知道点代码</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 10 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 14 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Java</title>
+        <link>https://iden9.github.io/actions-test/categories/java/</link>
+        <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://iden9.github.io/actions-test/categories/java/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Springboot</title>
+        <link>https://iden9.github.io/actions-test/categories/springboot/</link>
+        <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://iden9.github.io/actions-test/categories/springboot/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>基础知识</title>
         <link>https://iden9.github.io/actions-test/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
         <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
