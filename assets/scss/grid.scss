@@ -104,6 +104,7 @@ main.main {
 // 修改过
 /* 控制整个文章列表为弹性布局 */
 .article-list {
+    gap: 20px !important;
     display: flex;
     flex-direction: row !important;
     flex-wrap: wrap; /* 自动换行 */
@@ -121,6 +122,8 @@ main.main {
 
 .article-list .has-image,
 .article-list article{
+    // background-color: red;
+    gap: 10px  !important;
     width: 40% !important;
     flex: 0 1 calc(50% - 20px);
 }
