@@ -7,6 +7,7 @@ tags:
     - multi-platform
 categories:
     - Web
+    - uniapp
 ---
 
 # Uniapp 开发篇

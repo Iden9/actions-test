@@ -77,6 +77,13 @@ npm install uview-ui@2.0.36
 ```
 ### 总结
 根据上面的步骤使用HbuilderX编辑器，应该就可以编译完成，但是可能你会遇到一些问题
-在我的成功引入的环境中: nodejs version:17 vue version:vue3
+在我的成功引入的环境中:
+
+<p> nodejs version:17 </p>
+<p> vue version:vue2 </p>
+<p> 如果你使用vue3的话请引入 UView-plus</p>
+
+
+
 你需要注意的是假如编译报错时可能会显示找不到对应的模块此时就需要在page.json,和引入的scss文件路径进行修改，
 注意尽量不要自己敲路径，尽量复制路径，因为你永远不知道自己会不会打错路径，另外根据UView官网你可能会看到如果使用HbuilderX编辑器的话不需要安装scss-loader，这是一个坑，不安装的话会报错,另外如果你使用HbuilderX官网的插件导入的话要注意使用vue2版本，但是我并没有使用成功，可能是我的配置还是有问题。
