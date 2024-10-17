@@ -137,6 +137,7 @@
 &lt;p&gt; 如果你使用vue3的话请引入 UView-plus&lt;/p&gt;
 &lt;p&gt;你需要注意的是假如编译报错时可能会显示找不到对应的模块此时就需要在page.json,和引入的scss文件路径进行修改，
 注意尽量不要自己敲路径，尽量复制路径，因为你永远不知道自己会不会打错路径，另外根据UView官网你可能会看到如果使用HbuilderX编辑器的话不需要安装scss-loader，这是一个坑，不安装的话会报错,另外如果你使用HbuilderX官网的插件导入的话要注意使用vue2版本，但是我并没有使用成功，可能是我的配置还是有问题。&lt;/p&gt;
+&lt;p&gt;Q1:使用Mac系统开发时正常引入UView-plus，使用u-form组件会报错显示语法错误，在Windows系统系正常，问题未解决&lt;/p&gt;
 </description>
         </item>
         <item>

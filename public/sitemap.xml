@@ -9,13 +9,22 @@
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/actions-test/</loc>
-    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/actions-test/categories/</loc>
-    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/categories/es/</loc>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/p/es%E6%96%B0%E7%89%B9%E6%80%A7/</loc>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/categories/javascript/</loc>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/actions-test/post/</loc>
-    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/actions-test/categories/uniapp/</loc>
     <lastmod>2024-10-16T00:00:00+00:00</lastmod>
