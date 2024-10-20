@@ -11,11 +11,26 @@
     <loc>http://localhost:1313/actions-test/</loc>
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/actions-test/categories/</loc>
+    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/categories/docker/</loc>
+    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/actions-test/post/</loc>
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/actions-test/categories/</loc>
-    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/actions-test/p/%E5%85%B3%E4%BA%8Edocker/</loc>
+    <lastmod>2024-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/categories/uniapp/</loc>
+    <lastmod>2024-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/p/uniapp-%E4%B8%AD%E4%BD%BF%E7%94%A8-u-swipe-action/</loc>
+    <lastmod>2024-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actions-test/p/%E5%85%B3%E4%BA%8Edocker2/</loc>
+    <lastmod>2024-10-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/actions-test/categories/es/</loc>
     <lastmod>2024-10-17T00:00:00+00:00</lastmod>
@@ -25,9 +40,6 @@
   </url><url>
     <loc>http://localhost:1313/actions-test/categories/javascript/</loc>
     <lastmod>2024-10-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/actions-test/categories/uniapp/</loc>
-    <lastmod>2024-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/actions-test/p/uniapp-%E5%BC%95%E5%85%A5-uviewui/</loc>
     <lastmod>2024-10-16T00:00:00+00:00</lastmod>
