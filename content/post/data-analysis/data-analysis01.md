@@ -139,3 +139,5 @@ Scatterplot Matrix with Legend
 对于名义型数据，样本也分成多个组，但没有任何特定的顺序。例如，居住的国家/地区就是名义型变量。您可以使用国家/地区缩写，也可以使用数字对国家/地区名称编码。无论采用哪一种方式，您都只是在为不同的数据组命名而已。
 
 您可以使用类别型或名义型变量来定制散点图。您可以将不同的颜色或标记分配给这些变量的各个水平。
+
+https://www.jmp.com/zh_cn/statistics-knowledge-portal/exploratory-data-analysis/scatter-plot.html
