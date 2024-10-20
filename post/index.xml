@@ -1779,6 +1779,8 @@ Scatterplot Matrix with Legend
 &lt;p&gt;对于分类型数据，样本会分成多个组，并且响应可能有定义好的顺序。例如，在一项调查中，要求您从“强烈不同意”到“强烈同意”这样的范围来提供意见，您的响应就是分类型的。&lt;/p&gt;
 &lt;p&gt;对于名义型数据，样本也分成多个组，但没有任何特定的顺序。例如，居住的国家/地区就是名义型变量。您可以使用国家/地区缩写，也可以使用数字对国家/地区名称编码。无论采用哪一种方式，您都只是在为不同的数据组命名而已。&lt;/p&gt;
 &lt;p&gt;您可以使用类别型或名义型变量来定制散点图。您可以将不同的颜色或标记分配给这些变量的各个水平。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jmp.com/zh_cn/statistics-knowledge-portal/exploratory-data-analysis/scatter-plot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.jmp.com/zh_cn/statistics-knowledge-portal/exploratory-data-analysis/scatter-plot.html&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
