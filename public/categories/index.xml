@@ -15,6 +15,22 @@
         <description></description>
         </item>
         <item>
+        <title>数据分析</title>
+        <link>http://localhost:1313/actions-test/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</link>
+        <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/actions-test/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>JavaScript</title>
+        <link>http://localhost:1313/actions-test/categories/javascript/</link>
+        <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/actions-test/categories/javascript/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Uniapp</title>
         <link>http://localhost:1313/actions-test/categories/uniapp/</link>
         <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
@@ -28,14 +44,6 @@
         <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/actions-test/categories/es/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>JavaScript</title>
-        <link>http://localhost:1313/actions-test/categories/javascript/</link>
-        <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/actions-test/categories/javascript/</guid>
         <description></description>
         </item>
         <item>
