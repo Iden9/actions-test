@@ -1136,14 +1136,83 @@ provider: waline&lt;/p&gt;
         <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/actions-test/p/tinyvue/</guid>
-        <description>&lt;p&gt;TinyVue 项目概述TinyVue 是一套面向企业级应用的跨端、跨框架 UI 组件库，兼容 Vue 2 和 Vue 3 两个版本，并且同时支持 PC 端和移动端。该项目提供了超过 104 个简洁、易用且功能强大的组件，为开发者提供了丰富的开发资源。更重要的是，它的设计理念是模板、样式、逻辑分离，确保代码的可移植性和灵活性。作为一个开发者，我非常欣赏 TinyVue 这种一次开发，多端兼容的设计理念，因为这不仅减少了项目中重复造轮子的时间，还能让我们的代码在不同平台之间无缝迁移。项目的独特亮点1. 跨端、跨框架支持在现代的前端开发中，跨端适配是一项巨大的挑战，而 TinyVue 优雅地解决了这个问题。它不仅能够兼容 Vue 2 和 Vue 3，还支持 PC 端和移动端，这意味着无论你是构建桌面应用，还是面向移动用户的 Web 应用，都能轻松使用 TinyVue 组件，真正实现“一套代码，多个平台”。2. 104 个强大组件TinyVue 提供了超过 100 个组件，包括按钮、表单、表格、弹窗等常用组件，此外还有一些更加复杂的图表、树形控件等企业级应用中必不可少的组件。所有的组件都是基于 Vue 的特性精心设计的，既简单易用，又功能强大，能够帮助开发者快速构建复杂的 UI 界面。3. 支持低代码开发随着低代码平台的崛起，很多企业和开发团队开始寻求更加简单、直观的开发方式。TinyVue 为此提供了支持配置式开发的组件，这使得它能够无缝集成到低代码平台中，通过可视化配置实现组件的灵活开发。4. 国际化支持如今，越来越多的企业项目面向全球市场，国际化支持成为不可或缺的一部分。TinyVue 内置了国际化支持，开发者可以轻松地为项目添加多语言支持，快速响应不同语言和地区用户的需求。5. 主题定制TinyVue 提供了主题定制功能，允许开发者根据需求自定义组件的外观和风格。通过简单的配置，你就可以为不同的项目提供符合品牌或设计规范的 UI 风格，大大提升了组件库的适用性。6. 高性能与轻量化在大多数企业级应用中，性能问题是不得不考虑的重要因素。TinyVue 组件库在性能上做了充分的优化，所有组件都是轻量化设计，尽可能减少引入不必要的资源，确保项目在各种设备上都能流畅运行。如何在项目中使用 TinyVue？如果你已经被 TinyVue 的特性所吸引，想要在项目中使用它，这里有一个简单的使用指南，让你可以快速上手。1. 安装 TinyVueTinyVue 提供了针对 Vue 2 和 Vue 3 两个版本的支持。你可以根据你当前的 Vue 项目选择合适的版本进行安装。如果你使用的是 Vue 3：npm i @opentiny/vue@3如果你使用的是 Vue 2：npm i @opentiny/vue@22. 引入并使用组件在安装完成之后，你就可以在项目中引入并使用 TinyVue 提供的组件了。以下是一个简单的使用示例：&amp;lt;script lang=&amp;ldquo;ts&amp;rdquo; setup&amp;gt;
-  import { Button as TinyButton } from &amp;lsquo;@opentiny/vue&amp;rsquo;
-&lt;/script&gt;&lt;/p&gt;
-&lt;template&gt;
-  &lt;tiny-button&gt;点击我&lt;/tiny-button&gt;
-&lt;/template&gt;以上代码展示了如何在 Vue 项目中引入 TinyVue 的 Button 组件，并将其用于页面中。你只需引入对应组件，即可在页面中轻松使用 TinyVue 提供的丰富组件库。3. 本地开发与调试如果你想进一步定制 TinyVue 组件，或为其贡献代码，你可以按照以下步骤在本地克隆项目并进行开发：git clone git@github.com:opentiny/tiny-vue.git
-cd tiny-vue
-pnpm i启动 Vue 3 项目：pnpm dev启动 Vue 2 项目：pnpm dev2打开浏览器访问：http://127.0.0.1:7130/，你就可以查看并调试 TinyVue 组件了。组件截图结语TinyVue 是一个为现代企业级应用而生的 UI 组件库，它的跨端、跨框架特性，以及丰富的组件和灵活的配置选项，能为开发者提供极大的便利。如果你正面临如何选择一款高效的 UI 组件库的难题，TinyVue 无疑是一个值得考虑的强大工具。文档地址https://opentiny.design/tiny-vue/zh-CN/smb-theme/overview仓库地址https://gitee.com/opentiny/tiny-vue</description>
+        <description>&lt;h2 id=&#34;tinyvue-项目概述&#34;&gt;TinyVue 项目概述
+&lt;/h2&gt;&lt;p&gt;TinyVue 是一套面向企业级应用的跨端、跨框架 UI 组件库，兼容 Vue 2 和 Vue 3 两个版本，并且同时支持 PC 端和移动端。该项目提供了超过 104 个简洁、易用且功能强大的组件，为开发者提供了丰富的开发资源。更重要的是，它的设计理念是模板、样式、逻辑分离，确保代码的可移植性和灵活性。作为一个开发者，我非常欣赏 TinyVue 这种一次开发，多端兼容的设计理念，因为这不仅减少了项目中重复造轮子的时间，还能让我们的代码在不同平台之间无缝迁移。项目的独特亮点&lt;/p&gt;
+&lt;h3 id=&#34;1跨端跨框架支持&#34;&gt;1. 跨端、跨框架支持
+&lt;/h3&gt;&lt;p&gt;在现代的前端开发中，跨端适配是一项巨大的挑战，而 TinyVue 优雅地解决了这个问题。它不仅能够兼容 Vue 2 和 Vue 3，还支持 PC 端和移动端，这意味着无论你是构建桌面应用，还是面向移动用户的 Web 应用，都能轻松使用 TinyVue 组件，真正实现“一套代码，多个平台”。&lt;/p&gt;
+&lt;h3 id=&#34;2104-个强大组件tinyvue&#34;&gt;2. 104 个强大组件TinyVue
+&lt;/h3&gt;&lt;p&gt;提供了超过 100 个组件，包括按钮、表单、表格、弹窗等常用组件，此外还有一些更加复杂的图表、树形控件等企业级应用中必不可少的组件。所有的组件都是基于 Vue 的特性精心设计的，既简单易用，又功能强大，能够帮助开发者快速构建复杂的 UI 界面。&lt;/p&gt;
+&lt;h3 id=&#34;3支持低代码开发&#34;&gt;3. 支持低代码开发
+&lt;/h3&gt;&lt;p&gt;随着低代码平台的崛起，很多企业和开发团队开始寻求更加简单、直观的开发方式。TinyVue 为此提供了支持配置式开发的组件，这使得它能够无缝集成到低代码平台中，通过可视化配置实现组件的灵活开发。&lt;/p&gt;
+&lt;h3 id=&#34;4国际化支持&#34;&gt;4. 国际化支持
+&lt;/h3&gt;&lt;p&gt;如今，越来越多的企业项目面向全球市场，国际化支持成为不可或缺的一部分。TinyVue 内置了国际化支持，开发者可以轻松地为项目添加多语言支持，快速响应不同语言和地区用户的需求。&lt;/p&gt;
+&lt;h3 id=&#34;5主题定制tinyvue&#34;&gt;5. 主题定制TinyVue
+&lt;/h3&gt;&lt;p&gt;提供了主题定制功能，允许开发者根据需求自定义组件的外观和风格。通过简单的配置，你就可以为不同的项目提供符合品牌或设计规范的 UI 风格，大大提升了组件库的适用性。&lt;/p&gt;
+&lt;h3 id=&#34;6高性能与轻量化&#34;&gt;6. 高性能与轻量化
+&lt;/h3&gt;&lt;p&gt;在大多数企业级应用中，性能问题是不得不考虑的重要因素。TinyVue 组件库在性能上做了充分的优化，所有组件都是轻量化设计，尽可能减少引入不必要的资源，确保项目在各种设备上都能流畅运行。如何在项目中使用 TinyVue？&lt;/p&gt;
+&lt;p&gt;如果你已经被 TinyVue 的特性所吸引，想要在项目中使用它，这里有一个简单的使用指南，让你可以快速上手。 1. 安装 TinyVueTinyVue 提供了针对 Vue 2 和 Vue 3 两个版本的支持。你可以根据你当前的 Vue 项目选择合适的版本进行安装。如果你使用的是 Vue 3：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm i @opentiny/vue@3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如果你使用的是 Vue 2：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm i @opentiny/vue@2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;2. 引入并使用组件在安装完成之后，你就可以在项目中引入并使用 TinyVue 提供的组件了。以下是一个简单的使用示例：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;ts&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;setup&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Button&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;TinyButton&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;@opentiny/vue&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/script&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;template&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;tiny&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;button&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;点击我&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/tiny-button&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/template&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;以上代码展示了如何在 Vue 项目中引入 TinyVue 的 Button 组件，并将其用于页面中。你只需引入对应组件，即可在页面中轻松使用 TinyVue 提供的丰富组件库。3. 本地开发与调试如果你想进一步定制 TinyVue 组件，或为其贡献代码，你可以按照以下步骤在本地克隆项目并进行开发：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone git@github.com:opentiny/tiny-vue.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; tiny-vue
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pnpm i
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;启动 Vue 3 项目：pnpm dev启动 Vue 2 项目：pnpm dev2打开浏览器访问：&lt;code&gt;http://127.0.0.1:7130/&lt;/code&gt;，你就可以查看并调试 TinyVue 组件了。组件截图结语TinyVue 是一个为现代企业级应用而生的 UI 组件库，它的跨端、跨框架特性，以及丰富的组件和灵活的配置选项，能为开发者提供极大的便利。如果你正面临如何选择一款高效的 UI 组件库的难题，TinyVue 无疑是一个值得考虑的强大工具。文档地址&lt;code&gt;https://opentiny.design/tiny-vue/zh-CN/smb-theme/overview仓库地址https://gitee.com/opentiny/tiny-vue&lt;/code&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>DockerFile</title>
+        <link>http://localhost:1313/actions-test/p/dockerfile/</link>
+        <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/actions-test/p/dockerfile/</guid>
+        <description>&lt;h2 id=&#34;dockerfile-配置文件的基本使用&#34;&gt;DockerFile 配置文件的基本使用
+&lt;/h2&gt;</description>
         </item>
         <item>
         <title>关于Docker</title>
@@ -1539,15 +1608,6 @@ pnpm i启动 Vue 3 项目：pnpm dev启动 Vue 2 项目：pnpm dev2打开浏�
 &lt;/ul&gt;
 &lt;p&gt;通过这些基础操作，你可以方便地进行 Docker 容器的创建、运行、管理和调试。根据实际情况，可以进一步探索 Docker Compose、Kubernetes 等工具，来实现更复杂的应用部署和管理。&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>关于Docker2</title>
-        <link>http://localhost:1313/actions-test/p/%E5%85%B3%E4%BA%8Edocker2/</link>
-        <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/actions-test/p/%E5%85%B3%E4%BA%8Edocker2/</guid>
-        <description>&lt;h3 id=&#34;关于docker的第二篇文章&#34;&gt;关于Docker的第二篇文章
-&lt;/h3&gt;</description>
         </item>
         <item>
         <title>关于数据分析</title>

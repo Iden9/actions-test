@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/actions-test/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=actions-test/livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="分享一些开发心德">
-<title>Posts</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="DockerFile 配置文件的基本使用 ">
+<title>DockerFile</title>
 
-<link rel='canonical' href='http://localhost:1313/actions-test/post/'>
+<link rel='canonical' href='http://localhost:1313/actions-test/p/dockerfile/'>
 
-<link rel="stylesheet" href="/actions-test/scss/style.min.cfb374e0909e979df3062fe9868b1041eef27afa522bec145b0c5b45f047157a.css"><meta property='og:title' content="Posts">
-<meta property='og:description' content="分享一些开发心德">
-<meta property='og:url' content='http://localhost:1313/actions-test/post/'>
+<link rel="stylesheet" href="/actions-test/scss/style.min.cfb374e0909e979df3062fe9868b1041eef27afa522bec145b0c5b45f047157a.css"><meta property='og:title' content="DockerFile">
+<meta property='og:description' content="DockerFile 配置文件的基本使用 ">
+<meta property='og:url' content='http://localhost:1313/actions-test/p/dockerfile/'>
 <meta property='og:site_name' content='知道点代码'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2024-10-22T00:00:00&#43;00:00 '/>
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="分享一些开发心德"><link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/actions-test/post/index.xml">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-20T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="DockerFile">
+<meta name="twitter:description" content="DockerFile 配置文件的基本使用 ">
     <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/102173622?v=4" />
 
     </head>
-    <body class="">
+    <body class="
+    article-page
+    ">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -277,67 +279,8 @@
     <aside class="sidebar right-sidebar sticky">
         
             
-                <form action="/actions-test/page/search/" class="search-form widget" >
-        <p>
-            <label>搜索</label>
-            <input name="keyword" required placeholder="输入关键词..." />
-        
-            <button title="搜索">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-            </button>
-        </p>
-    </form>
-            
-        
-            
-                <section class="widget archives">
-        <div style="display: flex; line-height: 30px;">
-            <div class="widget-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
-</svg>
-
-
-
-            </div>
-            <h2 style="font-size: 20px !important; font-weight: bold;" class="widget-title section-title" >归档</h2>
-        </div>
-        
-
-        
-        
-        
-        
-        
-        <div class="widget-archive--list">
-            <div class="archives-year">
-                    <a href="/actions-test/page/archives/#2024">
-                        
-                            <span class="year">2024</span>
-                            <span class="count">20</span>
-                        
-                    </a> 
-                </div>
-            
-        </div>
-    </section>
-            
-        
-            
                 
-            
-        
-            
-                <section class="widget tagCloud">
-    <div style="display: flex; line-height: 30px;">
+    <section class="widget archives">
         <div class="widget-icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -350,272 +293,191 @@
 
 
         </div>
-        <h2 style="font-size: 20px !important; font-weight: bold;" class="widget-title section-title">分类</h2>
-    </div>
-    
-
-    <div class="tagCloud-tags">
+        <h2 class="widget-title section-title">目录</h2>
         
-            <a href="/actions-test/categories/uniapp/" class="font_size_3">
-                Uniapp
-            </a>
-        
-            <a href="/actions-test/categories/web/" class="font_size_3">
-                Web
-            </a>
-        
-            <a href="/actions-test/categories/docker/" class="font_size_2">
-                Docker
-            </a>
-        
-            <a href="/actions-test/categories/javascript/" class="font_size_2">
-                JavaScript
-            </a>
-        
-            <a href="/actions-test/categories/%E5%90%8E%E7%AB%AF/" class="font_size_2">
-                后端
-            </a>
-        
-            <a href="/actions-test/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="font_size_2">
-                基础知识
-            </a>
-        
-            <a href="/actions-test/categories/blog/" class="font_size_1">
-                Blog
-            </a>
-        
-            <a href="/actions-test/categories/es/" class="font_size_1">
-                ES
-            </a>
-        
-            <a href="/actions-test/categories/java/" class="font_size_1">
-                Java
-            </a>
-        
-            <a href="/actions-test/categories/skill/" class="font_size_1">
-                Skill
-            </a>
-        
-    </div>
-</section>
-
-            
-        
-            
-                <section class="widget tagCloud">
-    <div style="display: flex; line-height: 30px;">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#dockerfile-配置文件的基本使用">DockerFile 配置文件的基本使用</a></li>
+  </ol>
+</nav>
         </div>
-        <h2 class="widget-title section-title" style="font-size: 20px !important; font-weight: bold;" >标签云</h2>
-    </div>
+    </section>
 
-    <div class="tagCloud-tags">
-        
-            <a href="/actions-test/tags/hugo/" class="font_size_1">
-                Hugo
-            </a>
-        
-            <a href="/actions-test/tags/multi-platform/" class="font_size_1">
-                Multi-Platform
-            </a>
-        
-            <a href="/actions-test/tags/nodejs/" class="font_size_1">
-                NodeJs
-            </a>
-        
-            <a href="/actions-test/tags/react/" class="font_size_1">
-                React
-            </a>
-        
-            <a href="/actions-test/tags/spring/" class="font_size_1">
-                Spring
-            </a>
-        
-            <a href="/actions-test/tags/theme/" class="font_size_1">
-                Theme
-            </a>
-        
-            <a href="/actions-test/tags/uniapp/" class="font_size_1">
-                Uniapp
-            </a>
-        
-            <a href="/actions-test/tags/vue/" class="font_size_1">
-                Vue
-            </a>
-        
-    </div>
-</section>
             
         
     </aside>
 
 
             <main class="main full-width">
-    <header>
-        <h3 class="section-title">
-            
-                章节
-            
-        </h3>
+    <article class="main-article">
+    <header class="article-header">
 
-        <div class="section-card">
-            <div class="section-details">
-                <h3 class="section-count">20 个页面</h3>
-                <h1 class="section-term">Posts</h1>
-                
-            </div>
-        </div>
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/actions-test/categories/docker/" >
+                Docker
+            </a>
+        
     </header>
     
-    <section class="article-list--compact">
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/actions-test/p/dockerfile/">DockerFile</a>
+        </h2>
+    
         
-            <article>
-    <a href="/actions-test/p/hugostack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/">
-        <div class="article-details">
-            <h2 class="article-title">【Hugo】Stack主题的使用记录</h2>
-            <footer class="article-time">
-                <time datetime='2024-10-02T00:00:00Z'>Oct 02, 2024</time>
-            </footer>
-        </div>
-            <div class="article-image">
-                
-                    <img src="https://hugo.opendocs.io/images/hugo-logo-wide.svg" loading="lazy" alt="Featured image of post 【Hugo】Stack主题的使用记录" />
-                
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 20, 2024</time>
             </div>
         
-    </a>
-</article>
+
         
-            <article>
-    <a href="/actions-test/p/%E5%88%9B%E5%BB%BAvue%E9%A1%B9%E7%9B%AE/">
-        <div class="article-details">
-            <h2 class="article-title">创建Vue项目</h2>
-            <footer class="article-time">
-                <time datetime='2024-10-02T00:00:00Z'>Oct 02, 2024</time>
-            </footer>
-        </div>
-            <div class="article-image">
-                
-                    <img src="https://avatars.githubusercontent.com/u/102173622?v=4" loading="lazy" alt="Featured image of post 创建Vue项目" />
-                
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
             </div>
         
-    </a>
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="dockerfile-配置文件的基本使用">DockerFile 配置文件的基本使用
+</h2>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>daixun</span>
+    </section>
+    </footer>
+
+
+    
 </article>
-        
-            <article>
-    <a href="/actions-test/p/tinyvue/">
-        <div class="article-details">
-            <h2 class="article-title">TinyVue</h2>
-            <footer class="article-time">
-                <time datetime='2024-10-22T00:00:00Z'>Oct 22, 2024</time>
-            </footer>
-        </div>
-    </a>
-</article>
-        
-            <article>
-    <a href="/actions-test/p/dockerfile/">
-        <div class="article-details">
-            <h2 class="article-title">DockerFile</h2>
-            <footer class="article-time">
-                <time datetime='2024-10-20T00:00:00Z'>Oct 20, 2024</time>
-            </footer>
-        </div>
-    </a>
-</article>
-        
-            <article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
     <a href="/actions-test/p/%E5%85%B3%E4%BA%8Edocker/">
+        
+        
+
         <div class="article-details">
             <h2 class="article-title">关于Docker</h2>
-            <footer class="article-time">
-                <time datetime='2024-10-20T00:00:00Z'>Oct 20, 2024</time>
-            </footer>
         </div>
     </a>
 </article>
-        
-            <article>
-    <a href="/actions-test/p/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/">
-        <div class="article-details">
-            <h2 class="article-title">关于数据分析</h2>
-            <footer class="article-time">
-                <time datetime='2024-10-20T00:00:00Z'>Oct 20, 2024</time>
-            </footer>
-        </div>
-    </a>
-</article>
-        
-            <article>
-    <a href="/actions-test/p/uniapp-%E4%B8%AD%E4%BD%BF%E7%94%A8-u-swipe-action/">
-        <div class="article-details">
-            <h2 class="article-title">uniapp 中使用 u-swipe-action</h2>
-            <footer class="article-time">
-                <time datetime='2024-10-19T00:00:00Z'>Oct 19, 2024</time>
-            </footer>
-        </div>
-    </a>
-</article>
-        
-            <article>
-    <a href="/actions-test/p/%E5%85%B3%E4%BA%8Ejavascript/">
-        <div class="article-details">
-            <h2 class="article-title">关于javascript</h2>
-            <footer class="article-time">
-                <time datetime='2024-10-19T00:00:00Z'>Oct 19, 2024</time>
-            </footer>
-        </div>
-    </a>
-</article>
-        
-            <article>
-    <a href="/actions-test/p/es%E6%96%B0%E7%89%B9%E6%80%A7/">
-        <div class="article-details">
-            <h2 class="article-title">ES新特性</h2>
-            <footer class="article-time">
-                <time datetime='2024-10-17T00:00:00Z'>Oct 17, 2024</time>
-            </footer>
-        </div>
-    </a>
-</article>
-        
-            <article>
-    <a href="/actions-test/p/uniapp-%E5%BC%95%E5%85%A5-uviewui/">
-        <div class="article-details">
-            <h2 class="article-title">uniapp 引入 UViewUI</h2>
-            <footer class="article-time">
-                <time datetime='2024-10-16T00:00:00Z'>Oct 16, 2024</time>
-            </footer>
-        </div>
-    </a>
-</article>
-        
-    </section>
-    <nav class='pagination'>
-        
-        
 
-        
             
-                <span class='page-link current'>1</span>
-                
-            
-            
-                    <a class='page-link' href='/actions-test/post/page/2/'>2</a>
-                
-            
-    </nav>
+        </div>
+    </div>
+</aside>
 
-<footer class="site-footer">
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
     <section class="copyright">
         &copy; 
         
@@ -630,6 +492,84 @@
     </section>
 </footer>
 
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
 
             </main>
         </div>
