@@ -1206,6 +1206,15 @@ provider: waline&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>DockerFile</title>
+        <link>https://iden9.github.io/actions-test/p/dockerfile/</link>
+        <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://iden9.github.io/actions-test/p/dockerfile/</guid>
+        <description>&lt;h2 id=&#34;dockerfile-配置文件的基本使用&#34;&gt;DockerFile 配置文件的基本使用
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>关于Docker</title>
         <link>https://iden9.github.io/actions-test/p/%E5%85%B3%E4%BA%8Edocker/</link>
         <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
@@ -1599,15 +1608,6 @@ provider: waline&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;通过这些基础操作，你可以方便地进行 Docker 容器的创建、运行、管理和调试。根据实际情况，可以进一步探索 Docker Compose、Kubernetes 等工具，来实现更复杂的应用部署和管理。&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>关于Docker2</title>
-        <link>https://iden9.github.io/actions-test/p/%E5%85%B3%E4%BA%8Edocker2/</link>
-        <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://iden9.github.io/actions-test/p/%E5%85%B3%E4%BA%8Edocker2/</guid>
-        <description>&lt;h3 id=&#34;关于docker的第二篇文章&#34;&gt;关于Docker的第二篇文章
-&lt;/h3&gt;</description>
         </item>
         <item>
         <title>关于数据分析</title>
