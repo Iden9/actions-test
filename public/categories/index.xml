@@ -6,7 +6,23 @@
         <description>Recent content in Categories on 知道点代码</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/actions-test/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 27 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/actions-test/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Java</title>
+        <link>http://localhost:1313/actions-test/categories/java/</link>
+        <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/actions-test/categories/java/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Springboot</title>
+        <link>http://localhost:1313/actions-test/categories/springboot/</link>
+        <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/actions-test/categories/springboot/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Database</title>
         <link>http://localhost:1313/actions-test/categories/database/</link>
         <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
@@ -60,22 +76,6 @@
         <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/actions-test/categories/es/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Java</title>
-        <link>http://localhost:1313/actions-test/categories/java/</link>
-        <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/actions-test/categories/java/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Springboot</title>
-        <link>http://localhost:1313/actions-test/categories/springboot/</link>
-        <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/actions-test/categories/springboot/</guid>
         <description></description>
         </item>
         <item>
