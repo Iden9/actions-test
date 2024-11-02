@@ -6,7 +6,7 @@
         <description>Recent content in Posts on 知道点代码</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 27 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/actions-test/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 02 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/actions-test/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【Hugo】Stack主题的使用记录</title>
         <link>http://localhost:1313/actions-test/p/hugostack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
@@ -1131,41 +1131,107 @@ provider: waline&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>undertow 替换 tomcat</title>
-        <link>http://localhost:1313/actions-test/p/undertow-%E6%9B%BF%E6%8D%A2-tomcat/</link>
-        <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+        <title>gitgnore 的基本配置</title>
+        <link>http://localhost:1313/actions-test/p/gitgnore-%E7%9A%84%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/actions-test/p/undertow-%E6%9B%BF%E6%8D%A2-tomcat/</guid>
-        <description>&lt;h2 id=&#34;大公司为什么禁止springboot项目使用tomcat&#34;&gt;大公司为什么禁止SpringBoot项目使用Tomcat？
-&lt;/h2&gt;&lt;h3 id=&#34;前言&#34;&gt;前言
-&lt;/h3&gt;&lt;p&gt;在SpringBoot框架中，我们使用最多的是Tomcat，这是SpringBoot默认的容器技术，而且是内嵌式的Tomcat。同时，SpringBoot也支持Undertow容器，我们可以很方便的用Undertow替换Tomcat，而Undertow的性能和内存使用方面都优于Tomcat，那我们如何使用Undertow技术呢？本文将为大家细细讲解。&lt;/p&gt;
-&lt;p&gt;SpringBoot中的Tomcat容器
-SpringBoot可以说是目前最火的Java Web框架了。它将开发者从繁重的xml解救了出来，让开发者在几分钟内就可以创建一个完整的Web服务，极大的提高了开发者的工作效率。Web容器技术是Web项目必不可少的组成部分，因为任Web项目都要借助容器技术来运行起来。在SpringBoot框架中，我们使用最多的是Tomcat，这是SpringBoot默认的容器技术，而且是内嵌式的Tomcat。&lt;/p&gt;
-&lt;p&gt;SpringBoot设置Undertow
-对于Tomcat技术，Java程序员应该都非常熟悉，它是Web应用最常用的容器技术。我们最早的开发的项目基本都是部署在Tomcat下运行，那除了Tomcat容器，SpringBoot中我们还可以使用什么容器技术呢？没错，就是题目中的Undertow容器技术。SrpingBoot已经完全继承了Undertow技术，我们只需要引入Undertow的依赖即可，如下图所示。&lt;/p&gt;
-&lt;p&gt;图片
-图片
-配置好以后，我们启动应用程序，发现容器已经替换为Undertow。&lt;/p&gt;
-&lt;p&gt;那我们为什么需要替换Tomcat为Undertow技术呢？&lt;/p&gt;
-&lt;p&gt;Tomcat与Undertow的优劣对比
-Tomcat是Apache基金下的一个轻量级的Servlet容器，支持Servlet和JSP。Tomcat具有Web服务器特有的功能，包括 Tomcat管理和控制平台、安全局管理和Tomcat阀等。Tomcat本身包含了HTTP服务器，因此也可以视作单独的Web服务器。但是，Tomcat和ApacheHTTP服务器不是一个东西，ApacheHTTP服务器是用C语言实现的HTTP Web服务器。Tomcat是完全免费的，深受开发者的喜爱。&lt;/p&gt;
-&lt;p&gt;图片
-Undertow是Red Hat公司的开源产品, 它完全采用Java语言开发，是一款灵活的高性能Web服务器，支持阻塞IO和非阻塞IO。由于Undertow采用Java语言开发，可以直接嵌入到Java项目中使用。同时， Undertow完全支持Servlet和Web Socket，在高并发情况下表现非常出色。&lt;/p&gt;
-&lt;p&gt;图片
-我们在相同机器配置下压测Tomcat和Undertow，得到的测试结果如下所示：&lt;/p&gt;
-&lt;p&gt;QPS测试结果对比：
-Tomcat
-图片
-Undertow
-图片
-内存使用对比：
-Tomcat
-图片
-Undertow
-图片
-通过测试发现，在高并发系统中，Tomcat相对来说比较弱。在相同的机器配置下，模拟相等的请求数，Undertow在性能和内存使用方面都是最优的。并且Undertow新版本默认使用持久连接，这将会进一步提高它的并发吞吐能力。所以，如果是高并发的业务系统，Undertow是最佳选择。&lt;/p&gt;
-&lt;p&gt;最后
-SpingBoot中我们既可以使用Tomcat作为Http服务，也可以用Undertow来代替。Undertow在高并发业务场景中，性能优于Tomcat。所以，如果我们的系统是高并发请求，不妨使用一下Undertow，你会发现你的系统性能会得到很大的提升。&lt;/p&gt;
+        <guid>http://localhost:1313/actions-test/p/gitgnore-%E7%9A%84%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</guid>
+        <description>&lt;h2 id=&#34;在-gitignore-文件中你可以指定不希望被-git-跟踪的文件和目录以下是一些常见的设置方法&#34;&gt;在 &lt;code&gt;.gitignore&lt;/code&gt; 文件中，你可以指定不希望被 Git 跟踪的文件和目录。以下是一些常见的设置方法：
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略特定文件&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略某个特定文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;secret.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略特定目录&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略某个目录及其内容
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;logs/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略某种类型的文件&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略所有的 .log 文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*.log
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略所有的 .tmp 文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*.tmp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略所有文件，但保留特定文件&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略所有的 .txt 文件，但保留 example.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!example.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略特定模式的文件&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略所有在 temp 目录下的文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;temp/*
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略全局配置&lt;/strong&gt;（例如操作系统生成的文件）：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# macOS 系统生成的文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.DS_Store
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Windows 系统生成的文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Thumbs.db
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;创建或编辑 &lt;code&gt;.gitignore&lt;/code&gt; 文件后，确保它位于你的 Git 仓库根目录下。设置好后，Git 将忽略匹配这些规则的文件和目录，不再将它们提交到版本控制中。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -4677,7 +4743,7 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/actions-test/p/git-operate/</guid>
-        <description>&lt;img src="http://localhost:1313/actions-test/p/git-operate/gitlogo.jpeg" alt="Featured image of post Git Operate" /&gt;&lt;p&gt;以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/actions-test/gitlogo.jpeg" alt="Featured image of post Git Operate" /&gt;&lt;p&gt;以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。&lt;/p&gt;
 &lt;h3 id=&#34;1-基础-git-操作&#34;&gt;1. &lt;strong&gt;基础 Git 操作&lt;/strong&gt;
 &lt;/h3&gt;&lt;h4 id=&#34;初始化仓库和克隆仓库&#34;&gt;初始化仓库和克隆仓库
 &lt;/h4&gt;&lt;ul&gt;
