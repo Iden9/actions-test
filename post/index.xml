@@ -6,7 +6,7 @@
         <description>Recent content in Posts on 知道点代码</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 02 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iden9.github.io/actions-test/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【Hugo】Stack主题的使用记录</title>
         <link>https://iden9.github.io/actions-test/p/hugostack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
@@ -1128,6 +1128,110 @@ provider: waline&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;总结&#34;&gt;总结
 &lt;/h3&gt;&lt;p&gt;这些步骤可以帮助你快速入门 Vue.js。根据你的项目需求，可以逐步深入学习 Vue 的更多特性和用法。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>gitgnore 的基本配置</title>
+        <link>https://iden9.github.io/actions-test/p/gitgnore-%E7%9A%84%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</link>
+        <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://iden9.github.io/actions-test/p/gitgnore-%E7%9A%84%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</guid>
+        <description>&lt;h2 id=&#34;在-gitignore-文件中你可以指定不希望被-git-跟踪的文件和目录以下是一些常见的设置方法&#34;&gt;在 &lt;code&gt;.gitignore&lt;/code&gt; 文件中，你可以指定不希望被 Git 跟踪的文件和目录。以下是一些常见的设置方法：
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略特定文件&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略某个特定文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;secret.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略特定目录&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略某个目录及其内容
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;logs/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略某种类型的文件&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略所有的 .log 文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*.log
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略所有的 .tmp 文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*.tmp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略所有文件，但保留特定文件&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略所有的 .txt 文件，但保留 example.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!example.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略特定模式的文件&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 忽略所有在 temp 目录下的文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;temp/*
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;忽略全局配置&lt;/strong&gt;（例如操作系统生成的文件）：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# macOS 系统生成的文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.DS_Store
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Windows 系统生成的文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Thumbs.db
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;创建或编辑 &lt;code&gt;.gitignore&lt;/code&gt; 文件后，确保它位于你的 Git 仓库根目录下。设置好后，Git 将忽略匹配这些规则的文件和目录，不再将它们提交到版本控制中。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -4639,10 +4743,10 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>https://iden9.github.io/actions-test/p/git-operate/</guid>
-        <description>&lt;img src="https://iden9.github.io/actions-test/p/git-operate/gitlogo.jpeg" alt="Featured image of post Git Operate" /&gt;&lt;p&gt;以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。&lt;/p&gt;
-&lt;h3 id=&#34;1-基础-git-操作&#34;&gt;1. &lt;strong&gt;基础 Git 操作&lt;/strong&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;初始化仓库和克隆仓库&#34;&gt;初始化仓库和克隆仓库
-&lt;/h4&gt;&lt;ul&gt;
+        <description>&lt;img src="https://iden9.github.io/actions-test/gitlogo.jpeg" alt="Featured image of post Git Operate" /&gt;&lt;p&gt;以下是常用的 Git 命令，尤其是在将代码推送到 GitHub 时的常用操作。涵盖了 Git 的基本操作、分支管理、远程仓库操作、合并冲突处理等。&lt;/p&gt;
+&lt;h2 id=&#34;1-基础-git-操作&#34;&gt;1. &lt;strong&gt;基础 Git 操作&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;初始化仓库和克隆仓库&#34;&gt;初始化仓库和克隆仓库
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git init&lt;/code&gt;&lt;br&gt;
 初始化一个新的 Git 仓库。&lt;/p&gt;
@@ -4652,13 +4756,13 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 克隆远程仓库到本地。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;查看状态&#34;&gt;查看状态
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;查看状态&#34;&gt;查看状态
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git status&lt;/code&gt;&lt;br&gt;
 查看当前工作区状态（文件是否被修改、是否在暂存区等）。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;添加文件到暂存区&#34;&gt;添加文件到暂存区
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;添加文件到暂存区&#34;&gt;添加文件到暂存区
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git add &amp;lt;file&amp;gt;&lt;/code&gt;&lt;br&gt;
 将文件添加到暂存区。&lt;/p&gt;
@@ -4668,8 +4772,8 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 将所有改动的文件添加到暂存区。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;提交改动&#34;&gt;提交改动
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;提交改动&#34;&gt;提交改动
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git commit -m &amp;quot;message&amp;quot;&lt;/code&gt;&lt;br&gt;
 提交暂存区中的更改到本地仓库，并添加提交信息。&lt;/p&gt;
@@ -4679,9 +4783,9 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 修改最近一次提交的信息或内容（不建议在已经推送的分支上使用）。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;2-分支管理&#34;&gt;2. &lt;strong&gt;分支管理&lt;/strong&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;创建和切换分支&#34;&gt;创建和切换分支
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h2 id=&#34;2-分支管理&#34;&gt;2. &lt;strong&gt;分支管理&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;创建和切换分支&#34;&gt;创建和切换分支
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git branch &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
 创建一个新的分支。&lt;/p&gt;
@@ -4695,8 +4799,8 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 创建并切换到一个新分支。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;查看分支&#34;&gt;查看分支
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;查看分支&#34;&gt;查看分支
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git branch&lt;/code&gt;&lt;br&gt;
 列出本地分支。&lt;/p&gt;
@@ -4710,8 +4814,8 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 列出所有分支（本地和远程）。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;删除分支&#34;&gt;删除分支
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;删除分支&#34;&gt;删除分支
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git branch -d &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
 删除本地分支（分支必须已被合并）。&lt;/p&gt;
@@ -4721,19 +4825,19 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 强制删除本地分支（即使未合并）。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;3-远程仓库操作&#34;&gt;3. &lt;strong&gt;远程仓库操作&lt;/strong&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;添加远程仓库&#34;&gt;添加远程仓库
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h2 id=&#34;3-远程仓库操作&#34;&gt;3. &lt;strong&gt;远程仓库操作&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;添加远程仓库&#34;&gt;添加远程仓库
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git remote add origin &amp;lt;repository-url&amp;gt;&lt;/code&gt;&lt;br&gt;
 将远程仓库设置为 &lt;code&gt;origin&lt;/code&gt;。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;查看远程仓库&#34;&gt;查看远程仓库
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;查看远程仓库&#34;&gt;查看远程仓库
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git remote -v&lt;/code&gt;&lt;br&gt;
 查看当前配置的远程仓库地址。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;推送代码到远程仓库&#34;&gt;推送代码到远程仓库
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;推送代码到远程仓库&#34;&gt;推送代码到远程仓库
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git push origin &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
 将本地分支推送到远程仓库。&lt;/p&gt;
@@ -4747,8 +4851,8 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 推送所有标签到远程仓库。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;拉取远程仓库更新&#34;&gt;拉取远程仓库更新
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;拉取远程仓库更新&#34;&gt;拉取远程仓库更新
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git pull origin &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
 从远程仓库拉取最新的更改并与当前分支合并。&lt;/p&gt;
@@ -4758,14 +4862,14 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 获取远程仓库的最新更改，但不与本地合并。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;4-合并和冲突处理&#34;&gt;4. &lt;strong&gt;合并和冲突处理&lt;/strong&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;合并分支&#34;&gt;合并分支
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h2 id=&#34;4-合并和冲突处理&#34;&gt;4. &lt;strong&gt;合并和冲突处理&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;合并分支&#34;&gt;合并分支
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git merge &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;br&gt;
 将指定分支合并到当前分支。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;解决合并冲突&#34;&gt;解决合并冲突
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;解决合并冲突&#34;&gt;解决合并冲突
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;手动编辑冲突文件后，执行以下命令：
 &lt;ul&gt;
 &lt;li&gt;
@@ -4779,14 +4883,14 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;放弃合并&#34;&gt;放弃合并
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;放弃合并&#34;&gt;放弃合并
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git merge --abort&lt;/code&gt;&lt;br&gt;
 取消当前的合并操作。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;5-日志与历史记录&#34;&gt;5. &lt;strong&gt;日志与历史记录&lt;/strong&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;查看提交历史&#34;&gt;查看提交历史
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h2 id=&#34;5-日志与历史记录&#34;&gt;5. &lt;strong&gt;日志与历史记录&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;查看提交历史&#34;&gt;查看提交历史
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git log&lt;/code&gt;&lt;br&gt;
 查看提交历史记录。&lt;/p&gt;
@@ -4800,24 +4904,24 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 以图形方式显示分支和提交历史。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;查看某个文件的修改历史&#34;&gt;查看某个文件的修改历史
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;查看某个文件的修改历史&#34;&gt;查看某个文件的修改历史
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git log -p &amp;lt;file&amp;gt;&lt;/code&gt;&lt;br&gt;
 查看某个文件的详细修改历史。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;6-撤销操作&#34;&gt;6. &lt;strong&gt;撤销操作&lt;/strong&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;撤销修改&#34;&gt;撤销修改
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h2 id=&#34;6-撤销操作&#34;&gt;6. &lt;strong&gt;撤销操作&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;撤销修改&#34;&gt;撤销修改
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git checkout -- &amp;lt;file&amp;gt;&lt;/code&gt;&lt;br&gt;
 丢弃某个文件的本地修改，恢复到最近一次提交的状态。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;重置暂存区&#34;&gt;重置暂存区
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;重置暂存区&#34;&gt;重置暂存区
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git reset HEAD &amp;lt;file&amp;gt;&lt;/code&gt;&lt;br&gt;
 将文件从暂存区移除，但保留文件的修改。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;回滚到某次提交&#34;&gt;回滚到某次提交
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;回滚到某次提交&#34;&gt;回滚到某次提交
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git reset --hard &amp;lt;commit-hash&amp;gt;&lt;/code&gt;&lt;br&gt;
 将仓库回滚到指定的提交，并删除之后的所有更改。&lt;/p&gt;
@@ -4827,9 +4931,9 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 回滚到指定的提交，但保留之后的改动，放入暂存区。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;7-标签管理&#34;&gt;7. &lt;strong&gt;标签管理&lt;/strong&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;创建标签&#34;&gt;创建标签
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h2 id=&#34;7-标签管理&#34;&gt;7. &lt;strong&gt;标签管理&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;创建标签&#34;&gt;创建标签
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git tag &amp;lt;tag-name&amp;gt;&lt;/code&gt;&lt;br&gt;
 创建一个轻量标签。&lt;/p&gt;
@@ -4839,13 +4943,13 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 创建一个带注解的标签。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;查看标签&#34;&gt;查看标签
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;查看标签&#34;&gt;查看标签
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git tag&lt;/code&gt;&lt;br&gt;
 列出所有标签。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;推送标签&#34;&gt;推送标签
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;推送标签&#34;&gt;推送标签
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git push origin &amp;lt;tag-name&amp;gt;&lt;/code&gt;&lt;br&gt;
 将某个标签推送到远程仓库。&lt;/p&gt;
@@ -4855,8 +4959,8 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 将所有标签推送到远程仓库。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;删除标签&#34;&gt;删除标签
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;删除标签&#34;&gt;删除标签
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git tag -d &amp;lt;tag-name&amp;gt;&lt;/code&gt;&lt;br&gt;
 删除本地标签。&lt;/p&gt;
@@ -4866,18 +4970,18 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 删除远程仓库中的标签。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;8-github-相关命令&#34;&gt;8. &lt;strong&gt;GitHub 相关命令&lt;/strong&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;fork-仓库&#34;&gt;Fork 仓库
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h2 id=&#34;8-github-相关命令&#34;&gt;8. &lt;strong&gt;GitHub 相关命令&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;fork-仓库&#34;&gt;Fork 仓库
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;GitHub 上可以通过点击 &lt;code&gt;Fork&lt;/code&gt; 按钮来复制别人的项目到自己的仓库。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;克隆-fork-仓库&#34;&gt;克隆 Fork 仓库
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;克隆-fork-仓库&#34;&gt;克隆 Fork 仓库
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git clone https://github.com/&amp;lt;your-username&amp;gt;/&amp;lt;forked-repository&amp;gt;&lt;/code&gt;&lt;br&gt;
 将 Fork 的仓库克隆到本地。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;拉取原始仓库的更新&#34;&gt;拉取原始仓库的更新
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;拉取原始仓库的更新&#34;&gt;拉取原始仓库的更新
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git remote add upstream &amp;lt;original-repo-url&amp;gt;&lt;/code&gt;&lt;br&gt;
 添加原始仓库为 &lt;code&gt;upstream&lt;/code&gt; 远程仓库。&lt;/p&gt;
@@ -4891,13 +4995,13 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 将原始仓库的更改合并到本地。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;创建-pull-request&#34;&gt;创建 Pull Request
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;创建-pull-request&#34;&gt;创建 Pull Request
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;通常在 GitHub 界面上点击 &lt;code&gt;New Pull Request&lt;/code&gt; 来提交更改请求。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;9-stash-储藏&#34;&gt;9. &lt;strong&gt;Stash (储藏)&lt;/strong&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;储藏未提交的更改&#34;&gt;储藏未提交的更改
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h2 id=&#34;9-stash-储藏&#34;&gt;9. &lt;strong&gt;Stash (储藏)&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;储藏未提交的更改&#34;&gt;储藏未提交的更改
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git stash&lt;/code&gt;&lt;br&gt;
 储藏当前未提交的更改。&lt;/p&gt;
@@ -4915,14 +5019,14 @@ Post、Put 请求的参数推荐使用 @RequestBody 请求体参数&lt;/p&gt;
 应用最近的储藏并从储藏列表中移除。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;10-其他有用命令&#34;&gt;10. &lt;strong&gt;其他有用命令&lt;/strong&gt;
-&lt;/h3&gt;&lt;h4 id=&#34;显示远程仓库-url&#34;&gt;显示远程仓库 URL
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h2 id=&#34;10-其他有用命令&#34;&gt;10. &lt;strong&gt;其他有用命令&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;显示远程仓库-url&#34;&gt;显示远程仓库 URL
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git remote show origin&lt;/code&gt;&lt;br&gt;
 显示远程仓库详细信息，包括 URL 和当前跟踪的分支。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;比较差异&#34;&gt;比较差异
-&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&#34;比较差异&#34;&gt;比较差异
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;git diff&lt;/code&gt;&lt;br&gt;
 显示未暂存的改动。&lt;/p&gt;
